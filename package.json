@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "data": "python3 scripts/fetch_usaspending.py && python3 scripts/build_parents.py && python3 scripts/build_signals.py && python3 scripts/verify_analysis.py && python3 scripts/check_stale_figures.py",
-    "verify": "python3 scripts/build_signals.py && python3 scripts/verify_analysis.py && python3 scripts/check_stale_figures.py"
+    "verify": "python3 scripts/build_signals.py && python3 scripts/verify_analysis.py && python3 scripts/check_stale_figures.py",
+    "verify:live": "python3 scripts/verify_analysis.py --live https://srm-bottleneck-tracker.vercel.app"
   },
   "dependencies": {
     "next": "^16.3.5",

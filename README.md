@@ -57,9 +57,9 @@ Two checks enforce it from opposite directions, and both have caught real drift:
 | `verify_analysis.py` | every figure the prose quotes is present and current |
 | `check_stale_figures.py` | every figure-shaped token in the prose traces back to signals.json, a registered rounding, or a sourced external reference |
 
-`npm run verify -- --live <url>` adds the deployed dashboard as a fourth document, so a
-figure cannot differ between the write-ups and what the site actually serves. That check
-found one: a top-3 share quoted in the prose that no longer appeared on the page.
+`npm run verify:live` adds the deployed dashboard as a fourth document, so a figure
+cannot differ between the write-ups and what the site actually serves. That check found
+one: a top-3 share quoted in the prose that no longer appeared on the page.
 
 The second one exists because the first cannot catch a number left behind by an edit.
 It found two: a `92.2%` that had become `90.5%`, and a rounded `92%` still sitting in an
