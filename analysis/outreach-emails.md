@@ -88,6 +88,36 @@ than improvising it. Do not bury it — offer it before they have to ask.
 > acquisition and **98.2%** after. The merger transferred an existing near-monopoly; it
 > didn't create one.
 
+## Disclose this before they ask
+
+Put one line in the first email, not buried in a follow-up:
+
+> Two things I should flag: I haven't sought comment from Lockheed, L3Harris, Northrop or
+> DoD PA — this is all public record. And the HHI figures are descriptive of award data,
+> not a market definition or an antitrust claim.
+
+A reporter will notice both absences on their own, and noticing them is worse than being
+told. It also signals you know where the line is, which is most of what makes a
+non-institutional source usable to them.
+
+## Independent corroboration to cite
+
+Leading with your own dataset alone is a harder sell than leading with a dataset that
+agrees with GAO. Worth having these to hand:
+
+- **[GAO-18-45](https://www.gao.gov/products/gao-18-45)** — the SRM industrial base
+  consolidated from six US manufacturers to two since 1995; one manufacturer's supplier
+  base fell from ~5,000 to ~1,000 in twenty years; records DoD's position that current
+  demand can only sustain two manufacturers.
+- **[S.5556 (118th)](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text)**
+  — would have required an SRM industrial base strategy and an FFRDC capacity review.
+- **[DPA Title III, Sept 2025](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)**
+  — $33.5M specifically to expand solid rocket motor capacity.
+
+The useful framing: the government has documented the concentration and is spending money
+on it. What the contract data adds is that the motor procurement line itself never moved,
+and that only one of the two known manufacturers is even visible in it.
+
 ## Other questions to expect
 
 - **"Isn't this just one contract?"** — Yes, substantially: W31P4Q23C0005 is 51.1% of the
@@ -102,9 +132,12 @@ than improvising it. Do not bury it — offer it before they have to ask.
   ejection-seat maker. Including them roughly quadruples the apparent motor market and
   collapses the concentration signal. They're counted only in the deliberately generous
   0.32% figure.
-- **"Where's Northrop?"** — Largely invisible here, which is itself the point: Utah, home
-  of the largest US motor plant, receives 1.2% of these obligations. Prime awards track
-  where missiles are assembled, not where motors are cast.
+- **"Where's Northrop?"** — At **2.6%** of the motor code, despite being one of the two
+  manufacturers GAO documents. Utah, home of its largest motor plant, receives 1.2% of the
+  primary lens. That is the point rather than a hole: Northrop's motors flow into its own
+  missile programs and into subcontracts, so half the known duopoly is invisible in the
+  procurement line that names motors. Prime awards track where missiles are assembled,
+  not where motors are cast.
 
 ## Sequencing
 

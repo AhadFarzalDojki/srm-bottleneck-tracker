@@ -23,6 +23,18 @@ export type OwnerGroup = {
   ownership_note: string | null;
 };
 
+export type MotorLine = {
+  min: number;
+  max: number;
+  first_fy: number;
+  first: number;
+  last_fy: number;
+  last: number;
+  peak_fy: number;
+  peak: number;
+  flat_ratio: number;
+};
+
 export type Concentration = {
   total: number;
   net_total: number;
@@ -32,6 +44,7 @@ export type Concentration = {
   owner_groups: number;
   top1_share: number;
   top3_share: number;
+  tail_share: number;
   hhi: number;
   hhi_threshold: number;
   unrolled_top1_share: number;
@@ -164,6 +177,7 @@ export type Signals = {
   windows: { series: string; concentration: string };
   series: FyRow[];
   surge: Surge;
+  motor_line: MotorLine;
   concentration: Concentration;
   concentration_psc1337: Concentration;
   geography: { total: number; states: StateRow[]; top4_share: number };

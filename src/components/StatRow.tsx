@@ -60,7 +60,7 @@ export function StatRow() {
         emphasis
         value={pct(c.top1_share)}
         label={`${leader.group} — share of those dollars`}
-        note={`${windows.concentration}. HHI ${c.hhi.toLocaleString()}, against ${c.hhi_threshold} as the DOJ/FTC "highly concentrated" line.`}
+        note={`${windows.concentration}. HHI ${c.hhi.toLocaleString()} against the ${c.hhi_threshold} DOJ/FTC benchmark — a descriptive yardstick, not a market definition.`}
       />
       <Stat
         /* Two decimals: at sub-1% a single decimal rounds 0.32% to 0.3% and loses
@@ -74,7 +74,10 @@ export function StatRow() {
       <Stat
         emphasis
         value={pct(cPsc.top1_share)}
-        label="Single-source share of the real motor code"
+        /* "Largest supplier" rather than "single-source": the term is defined on the
+           page, but a stat tile is read out of context and should not imply a
+           market-structure claim on its own. */
+        label="Largest supplier — share of the real motor code"
         note={`PSC 1337, ${usd(cPsc.total)} over the window, HHI ${cPsc.hhi.toLocaleString()} across ${cPsc.owner_groups} groups.`}
       />
     </div>

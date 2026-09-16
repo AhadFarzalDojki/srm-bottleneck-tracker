@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "data": "python3 scripts/fetch_usaspending.py && python3 scripts/build_parents.py && python3 scripts/build_signals.py && python3 scripts/verify_analysis.py",
-    "verify": "python3 scripts/build_signals.py && python3 scripts/verify_analysis.py"
+    "data": "python3 scripts/fetch_usaspending.py && python3 scripts/build_parents.py && python3 scripts/build_signals.py && python3 scripts/verify_analysis.py && python3 scripts/check_stale_figures.py",
+    "verify": "python3 scripts/build_signals.py && python3 scripts/verify_analysis.py && python3 scripts/check_stale_figures.py"
   },
   "dependencies": {
     "next": "^16.3.5",

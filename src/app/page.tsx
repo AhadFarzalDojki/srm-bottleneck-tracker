@@ -1,5 +1,6 @@
 import { AwardTable } from "@/components/AwardTable";
-import { Caveat, Card, Section } from "@/components/Chrome";
+import { Caveat, Card, Nav, Section } from "@/components/Chrome";
+import { Corroboration } from "@/components/Corroboration";
 import { ConcentrationChart } from "@/components/ConcentrationChart";
 import { GeoChart } from "@/components/GeoChart";
 import { Method } from "@/components/Method";
@@ -19,27 +20,33 @@ export default function Page() {
     psc_mix: mix,
     program_dependency: prog,
     acquisition_timing: acq,
-    series,
   } = signals;
   const leader = c.groups[0];
-  const psc = series.map((r) => r.psc1337 ?? 0);
-  const pscFlat = Math.max(...psc) / Math.min(...psc.filter(Boolean));
-  const pscFirst = psc[0];
-  const pscLast = psc[psc.length - 1];
-  /* Derived, not written by hand: an earlier draft asserted a peak year that belonged
-     to a different (broader) product-code basket. */
-  const pscPeakFy = series.reduce(
-    (best, r) => ((r.psc1337 ?? 0) > (best.psc1337 ?? 0) ? r : best),
-    series[0]
-  ).fy;
+  /* No arithmetic here. Every derived figure the page shows is computed once in
+     scripts/build_signals.py and read from signals.json, so the dashboard and the
+     write-ups cannot calculate the same thing two different ways. */
+  const ml = signals.motor_line;
   const ut = geography.states.find((x) => x.state === "UT");
   const ar = geography.states.find((x) => x.state === "AR");
 
+  const nav = [
+    { id: "buildup", label: "The buildup" },
+    { id: "concentration", label: "Concentration" },
+    { id: "category", label: "What it buys" },
+    { id: "motor-line", label: "The motor line" },
+    { id: "geography", label: "Geography" },
+    { id: "corroboration", label: "Corroboration" },
+    { id: "limits", label: "Limits" },
+    { id: "method", label: "Method" },
+  ];
+
   return (
     <main>
+      <Nav items={nav} />
+
       {/* ---------------- hero ---------------- */}
-      <header className="border-b border-[var(--border)]">
-        <div className="mx-auto w-full max-w-5xl px-5 pb-12 pt-14 sm:pt-20">
+      <header>
+        <div className="mx-auto w-full max-w-5xl px-5 pb-14 pt-12 sm:pt-16">
           <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--primary)]">
             Public contract data · FY2016–FY2025
           </p>
@@ -48,15 +55,14 @@ export default function Page() {
               90.5%) and a hardcoded headline is the one place that would silently go
               stale. */}
           <h1 className="max-w-3xl text-balance text-[32px] font-semibold leading-[1.1] tracking-tight sm:text-[44px]">
-            Solid rocket motor spending flat since FY{series[0].fy}. One supplier holds{" "}
+            Solid rocket motor spending flat since FY{ml.first_fy}. One supplier holds{" "}
             {pct(cPsc.top1_share)} of it.
           </h1>
           <p className="mt-5 max-w-2xl text-pretty text-[16px] leading-relaxed text-[var(--muted)]">
             PSC 1337 is the only federal product code that names solid-fuel missile
-            propulsion. It ran between {usd(Math.min(...psc))} and {usd(Math.max(...psc))}{" "}
-            a year for a decade — {usd(pscFirst)} in FY{series[0].fy},{" "}
-            {usd(pscLast)} in FY{series[series.length - 1].fy} — peaking in FY
-            {pscPeakFy}, before the buildup.
+            propulsion. It ran between {usd(ml.min)} and {usd(ml.max)} a year for a
+            decade — {usd(ml.first)} in FY{ml.first_fy}, {usd(ml.last)} in FY
+            {ml.last_fy} — peaking in FY{ml.peak_fy}, before the buildup.
           </p>
           <p className="mt-4 max-w-2xl text-pretty text-[16px] leading-relaxed text-[var(--muted)]">
             Over the same period, DoD obligations to guided-missile propulsion
@@ -73,6 +79,7 @@ export default function Page() {
 
       {/* ---------------- 1. the surge ---------------- */}
       <Section
+        id="buildup"
         eyebrow="Signal 1 — the buildup, and a control"
         title={`Procurement rose ${s.multiple}×, and it is not a space-launch artifact`}
         lede={
@@ -95,23 +102,24 @@ export default function Page() {
 
       {/* ---------------- 2. concentration ---------------- */}
       <Section
+        id="concentration"
         eyebrow="Signal 2 — concentration"
         title={`${pct(c.top1_share)} of it sits with one corporate group`}
         lede={
           <>
             Share of DoD obligations in this category, {signals.windows.concentration},
             rolled up from {c.recipient_entities} registered recipient entities to{" "}
-            {c.owner_groups} corporate owner groups. An HHI of {c.hhi} is more than
-            double the {c.hhi_threshold} that DOJ and FTC merger guidelines treat as
-            highly concentrated. Ninety-four groups received money here; ninety-one of
-            them share {pct(100 - c.top3_share)} of it.
+            {c.owner_groups} corporate owner groups. {c.owner_groups} groups received
+            money here; all but the top three share {pct(c.tail_share)} of it. The HHI is{" "}
+            {c.hhi.toLocaleString()} — but see the note below on what that does and does
+            not mean.
           </>
         }
       >
         <Card className="p-4 pt-5">
           <ConcentrationChart />
         </Card>
-        <Caveat label="What this number is, and what it is not">
+        <Caveat label="What this number is, and what it is not" emphasis>
           This is concentration of <strong>award dollars received</strong>, not of
           manufacturing capacity. {leader.group} is the prime <em>integrator</em>{" "}
           — it wins the missile production contract and buys motors from suppliers one
@@ -119,10 +127,21 @@ export default function Page() {
           entirely through one company. Do not read it as: one company builds{" "}
           {pct(c.top1_share)} of American rocket motors.
         </Caveat>
+        <Caveat label="And the HHI is descriptive, not a market definition">
+          HHI here is computed on shares of award dollars inside a procurement code. An
+          antitrust HHI is computed on a defined relevant market — a specific product, in
+          a specific geography, with substitutes analysed. This is not that, and no claim
+          of market power, monopoly or antitrust violation is intended or supported. The{" "}
+          {c.hhi_threshold} figure is cited because it is the most widely understood
+          yardstick for &ldquo;how concentrated is concentrated&rdquo;. Read
+          &ldquo;single-source&rdquo; and &ldquo;highly concentrated&rdquo; throughout
+          this page as shorthand for measured properties of federal award data.
+        </Caveat>
       </Section>
 
       {/* ---------------- 3. the correction ---------------- */}
       <Section
+        id="category"
         eyebrow="Signal 3 — what the category actually contains"
         title="The propulsion code does not buy propulsion"
         lede={
@@ -149,6 +168,7 @@ export default function Page() {
 
       {/* ---------------- 4. the actual motor line ---------------- */}
       <Section
+        id="motor-line"
         eyebrow="Signal 4 — the motor line itself"
         title="The code that does name motors is flat, and nearly single-source"
         lede={
@@ -163,12 +183,11 @@ export default function Page() {
           <Card className="p-4">
             <h3 className="mb-1.5 text-[14px] font-semibold">It never inflected</h3>
             <p className="text-[13.5px] leading-relaxed text-[var(--muted)]">
-              Across the whole decade it moves by a factor of just{" "}
-              {pscFlat.toFixed(1)}×, ranging between {usd(Math.min(...psc))} and{" "}
-              {usd(Math.max(...psc))} a year, with no post-2022 step at all — its peak
-              year was FY{pscPeakFy}, before the buildup began. An analyst tracking the
-              motor bottleneck through the motor-specific code would conclude nothing
-              had happened.
+              Across the whole decade it moves by a factor of just {ml.flat_ratio}×,
+              ranging between {usd(ml.min)} and {usd(ml.max)} a year, with no post-2022
+              step at all — its peak year was FY{ml.peak_fy}, before the buildup began.
+              An analyst tracking the motor bottleneck through the motor-specific code
+              would conclude nothing had happened.
             </p>
           </Card>
           <Card className="p-4">
@@ -234,6 +253,7 @@ export default function Page() {
 
       {/* ---------------- 5. geography ---------------- */}
       <Section
+        id="geography"
         eyebrow="Signal 5 — geography"
         /* Deliberately led with Florida rather than the top-4 share: the top-4 figure
            is coincidentally also 92.2%, the same as PSC 1337's single-source share two
@@ -262,26 +282,21 @@ export default function Page() {
         </Caveat>
       </Section>
 
-      {/* ---------------- 6. tier 2 ---------------- */}
+      {/* ---------------- 6. corroboration ---------------- */}
       <Section
-        eyebrow="Tier two — partial visibility"
-        title="So who actually makes the motors?"
+        id="corroboration"
+        eyebrow="Corroboration"
+        title="The government already documents this"
         lede={
           <>
-            Prime-award data cannot answer this, and subaward data can only gesture at
-            it. Both panels are shown as-is, including the one that is unhelpful,
-            because the gap between them is the honest state of public evidence.
+            None of the above depends on my reading of the data being right about the
+            underlying industry. The concentration this analysis finds in contract
+            records is already described by GAO, acted on by Congress, and funded
+            against by the department itself.
           </>
         }
       >
-        <SubawardPanel />
-        <Caveat label="Why this panel is thin">
-          Federal subaward reporting covers first-tier subcontracts above reporting
-          thresholds. Solid rocket motor supply frequently sits deeper than tier one,
-          and reporting compliance is uneven. This is the clearest limit of the whole
-          project: public contract data shows you who the government pays, and only
-          sometimes who they pay in turn.
-        </Caveat>
+        <Corroboration />
       </Section>
 
       {/* ---------------- 7. drill-down ---------------- */}
@@ -298,6 +313,50 @@ export default function Page() {
         }
       >
         <AwardTable which="fy23" limit={8} />
+      </Section>
+
+      {/* ---------------- limits: a disclosure, not a sixth finding ---------------- */}
+      <Section
+        id="limits"
+        tone="limitation"
+        eyebrow="Limits of the evidence"
+        title="What this data cannot tell you"
+        lede={
+          <>
+            This section is a disclosure, not a finding. The obvious question the charts
+            above cannot answer is who actually manufactures the motors — prime award
+            data does not say, and subaward data only gestures at it. Both panels below
+            are shown as-is, including the unhelpful one, because the gap between them is
+            the honest state of the public evidence.
+          </>
+        }
+      >
+        <SubawardPanel />
+        <Caveat label="Why this panel is thin">
+          Federal subaward reporting covers first-tier subcontracts above reporting
+          thresholds. Solid rocket motor supply frequently sits deeper than tier one,
+          and reporting compliance is uneven. This is the clearest limit of the whole
+          project: public contract data shows you who the government pays, and only
+          sometimes who they pay in turn.
+        </Caveat>
+      </Section>
+
+      <Section tone="limitation" eyebrow="Disclosure" title="What I have not done">
+        <div className="max-w-2xl space-y-3 text-[14px] leading-relaxed text-[var(--muted)]">
+          <p>
+            I have not sought comment from Lockheed Martin, L3Harris, Northrop Grumman or
+            DoD public affairs, and nothing here should be read as reflecting their
+            positions. Everything on this page is derived from public contract records
+            and public government reporting.
+          </p>
+          <p>
+            Any of those organisations may have a straightforward explanation for a figure
+            here — particularly for how motor procurement is structured inside larger
+            missile contracts, which is exactly what this data cannot see. If you are
+            reporting on this, they are the right people to ask, and I would expect their
+            answers to sharpen the picture rather than contradict it.
+          </p>
+        </div>
       </Section>
 
       {/* ---------------- method ---------------- */}

@@ -67,6 +67,27 @@ def series():
     return [{"fy": fy, **by_fy[fy]} for fy in sorted(by_fy)]
 
 
+def motor_line(rows):
+    """Series properties of PSC 1337, the only code that names solid rocket motors.
+
+    These were previously recomputed in the dashboard and written by hand in the prose.
+    Both are forms of doing arithmetic outside the pipeline, which is how a figure ends
+    up stale in one place and current in another. They live here now, so signals.json
+    is the only thing that ever calculates them.
+    """
+    vals = {r["fy"]: r.get("psc1337", 0.0) for r in rows}
+    nonzero = [v for v in vals.values() if v]
+    peak_fy = max(vals, key=lambda f: vals[f])
+    return {
+        "min": round(min(nonzero), 2),
+        "max": round(max(nonzero), 2),
+        "first_fy": min(vals), "first": round(vals[min(vals)], 2),
+        "last_fy": max(vals), "last": round(vals[max(vals)], 2),
+        "peak_fy": peak_fy, "peak": round(vals[peak_fy], 2),
+        "flat_ratio": round(max(nonzero) / min(nonzero), 1),
+    }
+
+
 def surge(rows):
     """Growth framing for the primary lens, using a multi-year baseline."""
     val = {r["fy"]: r.get("dod_336415", 0.0) for r in rows}
@@ -136,6 +157,9 @@ def concentration(src, parents):
         "owner_groups": len(groups),
         "top1_share": round(shares[0], 1),
         "top3_share": round(sum(shares[:3]), 1),
+        # Everyone outside the top three, together. Quoted in the prose, so it is
+        # computed here rather than as arithmetic in a sentence.
+        "tail_share": round(100 - sum(shares[:3]), 1),
         "hhi": round(sum(s * s for s in shares)),
         "hhi_threshold": HHI_HIGH,
         # Kept deliberately: the gap between these two is the argument for doing the
@@ -316,6 +340,9 @@ def concentration_ex_top_award(conc, prog, parents):
         "top1_share": round(shares[0], 1),
         "top1_group": groups[0]["group"],
         "top3_share": round(sum(shares[:3]), 1),
+        # Everyone outside the top three, together. Quoted in the prose, so it is
+        # computed here rather than as arithmetic in a sentence.
+        "tail_share": round(100 - sum(shares[:3]), 1),
         "hhi": round(sum(s * s for s in shares)),
         "still_highly_concentrated": sum(s * s for s in shares) > HHI_HIGH,
         "groups": groups[:8],
@@ -483,6 +510,7 @@ def main():
         "windows": {"series": "FY2016-FY2025", "concentration": "FY2020-FY2025"},
         "series": rows,
         "surge": surge(rows),
+        "motor_line": motor_line(rows),
         "concentration": conc,
         "concentration_psc1337": conc_psc,
         "geography": geo,

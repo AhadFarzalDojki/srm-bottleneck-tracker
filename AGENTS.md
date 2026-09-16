@@ -6,6 +6,24 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # Project rules
 
+## Single source of truth
+
+`data/signals.json` is the only place a figure is ever calculated. Not the dashboard,
+not the write-ups, not a sentence.
+
+If you need to change a number, change the code that computes it in
+`scripts/build_signals.py` and re-run `npm run data`. Never edit a figure in
+`src/app/page.tsx` or in `analysis/*.md` directly — those read and quote, they do not
+compute. Two checks enforce this from opposite directions:
+
+- `verify_analysis.py` asserts every figure the prose quotes is present and current.
+- `check_stale_figures.py` scans for any figure-shaped token in the prose that does NOT
+  trace back to signals.json, a registered rounding, or a sourced external reference.
+
+Both have caught real drift. Derived quantities (a ratio, a share of a remainder, a peak
+year) belong in `build_signals.py` as fields, not as arithmetic in a component or a
+sentence — that is how the same number ends up different in two places.
+
 ## The data pipeline is the product
 `data/signals.json` is the single source of truth. The dashboard and the written
 analysis both read from it and neither does its own arithmetic on raw API responses.

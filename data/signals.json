@@ -95,6 +95,17 @@
     "control_recent_avg": 221088572.5,
     "control_multiple": 0.63
   },
+  "motor_line": {
+    "min": 110899052.01,
+    "max": 170659876.39,
+    "first_fy": 2016,
+    "first": 144880644.05,
+    "last_fy": 2025,
+    "last": 138177562.59,
+    "peak_fy": 2020,
+    "peak": 170659876.39,
+    "flat_ratio": 1.5
+  },
   "concentration": {
     "total": 4325242082.15,
     "net_total": 4325242082.15,
@@ -104,6 +115,7 @@
     "owner_groups": 94,
     "top1_share": 78.0,
     "top3_share": 91.7,
+    "tail_share": 8.3,
     "hhi": 6188,
     "hhi_threshold": 2500,
     "unrolled_top1_share": 55.0,
@@ -1060,6 +1072,7 @@
     "owner_groups": 16,
     "top1_share": 90.5,
     "top3_share": 99.3,
+    "tail_share": 0.7,
     "hhi": 8242,
     "hhi_threshold": 2500,
     "unrolled_top1_share": 90.5,
@@ -1668,6 +1681,7 @@
     "top1_share": 54.9,
     "top1_group": "Lockheed Martin",
     "top3_share": 83.0,
+    "tail_share": 17.0,
     "hhi": 3462,
     "still_highly_concentrated": true,
     "groups": [

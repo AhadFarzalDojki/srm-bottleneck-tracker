@@ -14,7 +14,8 @@ Department of Defense obligations to guided-missile propulsion manufacturers (NA
 336415) rose from a FY2016–FY2019 average of **$57 million a year** to **$1.16 billion**
 in FY2023–FY2025 — **20.2×**, peaking at $1.47 billion in FY2023. **78.0%** of it went to
 Lockheed Martin and **91.7%** to the top three groups, at an HHI of **6,188** against the
-2,500 that DOJ and FTC guidelines call highly concentrated.
+2,500 that DOJ and FTC guidelines call highly concentrated — a descriptive yardstick
+here, not a market definition.
 
 Two things immediately qualify that, and both are in the data.
 
@@ -49,6 +50,15 @@ Orlando integration base. Utah, home of the largest solid rocket motor plant in 
 country, gets **1.2%**. The clearest unambiguous motor contract in the dataset is $53.6
 million of Stinger flight motors in Camden, Arkansas — **1.3%**.
 
+**This lines up with what the government already says.** GAO's review of the solid
+rocket motor industrial base ([GAO-18-45](https://www.gao.gov/products/gao-18-45)) found
+the industry consolidated from six US manufacturers to two since 1995, and records DoD's
+position that current demand can only sustain two. Congress has since sought an SRM
+industrial base strategy ([S.5556](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text)),
+and DPA Title III money went to expanding motor capacity in September 2025. The contract
+data agrees with all of it — and adds that only *one* of those two manufacturers is
+visible in the procurement line that names motors. Northrop, the other, sits at 2.6%.
+
 **The limits, stated plainly.** The 78% is award dollars received by a prime integrator,
 not manufacturing share. And the flat PSC 1337 line does not prove motor *production*
 stalled — motors bought inside a complete missile contract never appear as a separate
@@ -56,6 +66,12 @@ line. That is the actual finding: during a twentyfold buildup in missile buying,
 separately-procured motor spending stayed flat for a decade and consolidated into
 effectively one supplier, and the public record offers no independent view of motor
 volume at all. The bottleneck everyone names is the part the data cannot see.
+
+HHI here is descriptive: it is computed on shares of award dollars inside a procurement
+code, not on a defined relevant market, and implies no antitrust claim. I have not sought
+comment from Lockheed Martin, L3Harris, Northrop Grumman or DoD public affairs; a company
+may well have a straightforward explanation for how motor buying sits inside larger
+missile contracts, which is precisely what this data cannot see.
 
 All from the public USAspending.gov API — no authentication, fully reproducible.
 
@@ -74,7 +90,7 @@ Leads with the finding, not the tool. Replace the bracketed parts.
 > the NAICS code named for rocket propulsion manufacturing is 0.3% propulsion by product
 > code — it's 53% complete missiles and 32% launchers. The one code that does name solid
 > rocket motors (PSC 1337) has been flat for a decade, peaked in FY2020 before the
-> buildup, and 92% of it goes to a single supplier.
+> buildup, and 90.5% of it goes to a single supplier.
 >
 > I built a small dashboard for it: https://srm-bottleneck-tracker.vercel.app. Happy to share the underlying data or walk
 > through the method — it's all public API, no auth, and the pipeline is open.

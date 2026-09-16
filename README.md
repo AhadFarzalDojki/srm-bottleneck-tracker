@@ -41,6 +41,26 @@ npm run dev          # dashboard at http://localhost:3000
 `npm run data` is safe to re-run: API responses are cached under `data/raw/`. Pass
 `--force` to `fetch_usaspending.py` to refresh them.
 
+## Single source of truth
+
+`data/signals.json` is the only place a figure is ever calculated — not the dashboard,
+not the write-ups, not a sentence. To change a number, change
+`scripts/build_signals.py` and re-run `npm run data`. Derived quantities (a ratio, a
+share of a remainder, a peak year) are fields in that file rather than arithmetic in a
+component or a paragraph, because that is how the same number ends up different in two
+places.
+
+Two checks enforce it from opposite directions, and both have caught real drift:
+
+| Check | Direction |
+|---|---|
+| `verify_analysis.py` | every figure the prose quotes is present and current |
+| `check_stale_figures.py` | every figure-shaped token in the prose traces back to signals.json, a registered rounding, or a sourced external reference |
+
+The second one exists because the first cannot catch a number left behind by an edit.
+It found two: a `92.2%` that had become `90.5%`, and a rounded `92%` still sitting in an
+email template.
+
 ## How it fits together
 
 ```
@@ -49,6 +69,7 @@ scripts/fetch_usaspending.py  every API call, cached to data/raw/
 scripts/build_parents.py      recipient entities → corporate owner groups
 scripts/build_signals.py      all published figures → data/signals.json
 scripts/verify_analysis.py    asserts the prose still matches the data
+scripts/check_stale_figures.py catches figures in the prose that match nothing
 src/app/page.tsx              the dashboard
 analysis/srm-concentration.md the full written piece
 analysis/outreach-short.md    short version + email framing
@@ -90,7 +111,35 @@ The build refuses to write new figures unless all of these hold:
    **all three** write-ups — so neither the short version nor the outreach emails can
    go stale. Documents that quote only a few figures are checked against just those.
 
-## The framing constraint
+## Independent corroboration
+
+The concentration here is already documented by the government, which matters more for
+credibility than any figure in this repo:
+
+- **[GAO-18-45](https://www.gao.gov/products/gao-18-45)** — the US solid rocket motor
+  industry consolidated from six manufacturers to two since 1995; one manufacturer's
+  supplier base fell from ~5,000 firms to ~1,000 in twenty years; records DoD's position
+  that current demand can only sustain two manufacturers.
+- **[S.5556 (118th)](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text)**
+  — would have required an SRM industrial base strategy and a capacity review.
+- **[DPA Title III, Sept 2025](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)**
+  — $33.5M to expand solid rocket motor capacity.
+
+GAO describes a *two*-manufacturer base. The motor code shows one supplier at 90.5% and
+Northrop — the other half of that duopoly — at 2.6%. That gap is the thesis, not a hole
+in it: Northrop's motors flow into its own missile programs and subcontracts, so half the
+known industrial base is invisible in the procurement line that names motors.
+
+## Framing constraints
+
+**HHI here is descriptive, not a market definition.** It is computed on shares of award
+dollars inside a procurement code, not on a defined relevant market with substitutes
+analysed. The DOJ/FTC 2,500 threshold is cited as the most widely understood yardstick
+for "how concentrated is concentrated", not because these figures establish anything
+under the merger guidelines. No claim of market power or antitrust violation is intended.
+
+**No comment was sought** from Lockheed Martin, L3Harris, Northrop Grumman or DoD public
+affairs. Everything here is public record.
 
 The 78% figure is concentration of **award dollars received** by a missile
 *integrator* — not evidence that one firm manufactures 78% of American rocket motors.

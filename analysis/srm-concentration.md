@@ -15,7 +15,8 @@ billion in FY2023**, the first full budget cycle after the invasion of Ukraine.
 Across FY2020–FY2025, **78.0%** of that money — $3.37 billion of $4.33 billion — went
 to a single corporate group, Lockheed Martin. The top three hold **91.7%**. The
 Herfindahl–Hirschman Index is **6,188**, nearly two and a half times the 2,500 at which
-DOJ and FTC merger guidelines call a market highly concentrated. Ninety-four corporate
+DOJ and FTC merger guidelines call a market highly concentrated — cited here as a
+descriptive yardstick, not as a market definition or an antitrust claim (see Method). Ninety-four corporate
 groups received money in this category; ninety-one of them share 8.3% of it.
 
 And the surge is genuinely defense-driven. NAICS 336415 covers space launch too, so the
@@ -113,6 +114,51 @@ quadruple the apparent motor market and collapse the concentration finding into 
 but 1340 is unguided and artillery rocket ammunition, and 1377's largest recipient is an
 ejection-seat manufacturer. Neither is missile propulsion.
 
+## Independent corroboration
+
+None of the above depends on my reading of the data being right about the underlying
+industry, and it shouldn't. The concentration this analysis finds in contract data is
+already documented by the government itself.
+
+GAO's 2018 review of the solid rocket motor industrial base
+([GAO-18-45](https://www.gao.gov/products/gao-18-45)) found that since 1995 the industry
+consolidated from six US manufacturers down to two, and that one manufacturer's own
+supplier base fell from roughly 5,000 firms to about 1,000 over twenty years. The same
+report records DoD's position that current SRM demand can only sustain two
+manufacturers — which is to say the concentration is not an accident of procurement but
+a consequence of demand too thin to support more suppliers.
+
+Congress has since treated it as a live problem. [S.5556
+(118th)](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text) would have
+required a solid rocket motor industrial base strategy, including an FFRDC review of the
+existing base's capacity to expand. And in September 2025 the department
+[awarded $33.5 million](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)
+in Defense Production Act Title III funding specifically to expand solid rocket motor
+capacity.
+
+**One apparent discrepancy is worth confronting directly, because it cuts in favour of
+the argument rather than against it.** GAO describes a *two*-manufacturer base: Aerojet
+Rocketdyne and Northrop Grumman. The motor code shows one supplier at 90.5% — and
+Northrop, the other half of that documented duopoly, at **2.6%**. Utah, where Northrop's
+largest motor plant sits, receives 1.2% of the obligations in the primary lens.
+
+That is not a contradiction of GAO. It is the same point this analysis keeps arriving at
+from different directions: Northrop's motor production largely flows into Northrop's own
+missile programs and into subcontracts, neither of which appears as separately-coded
+motor procurement. A duopoly exists in the industrial base; only one member of it is
+visible in the public procurement line that names motors. If you were using this data
+alone to map the motor supply base, you would miss half of it.
+
+## What I have not done
+
+I have not sought comment from Lockheed Martin, L3Harris, Northrop Grumman, or DoD
+public affairs, and nothing here should be read as reflecting their positions. Everything
+above is derived from public contract records and public government reporting. A company
+may have a straightforward explanation for any figure here — particularly for how motor
+procurement is structured inside larger missile contracts, which is exactly the thing
+this data cannot see. If you are reporting on this, they are the right people to ask, and
+I would expect their answers to sharpen the picture rather than contradict it.
+
 ## What this does and does not prove
 
 The 78% figure is concentration of **award dollars received** by a prime *integrator*,
@@ -137,7 +183,8 @@ Three things are true in the public record simultaneously:
    54.9% at an HHI of 3,462.
 2. **Almost none of it is propulsion** — 0.32% by product code — so the industry code
    named for propulsion cannot be used to track motors.
-3. **The one line that does name motors never moved**, and is ~92% single-source.
+3. **The one line that does name motors never moved**, and 90.5% of it goes to a
+   single supplier.
 
 For a supply chain everyone agrees is the constraint, that is the finding: during a
 twentyfold buildup in missile buying, separately-procured solid rocket motor spending
@@ -170,6 +217,16 @@ codes ever exceed 5% of the primary lens without the wording being revisited.
 
 **Subaward rows are deduplicated by sub-award ID.** Raw responses repeat rows across
 contract modifications.
+
+**HHI here is descriptive, not a market definition.** The Herfindahl–Hirschman Index is
+computed on shares of *award dollars inside a procurement code*. An antitrust HHI is
+computed on shares of a defined relevant market — a specific product, in a specific
+geography, with substitutes analysed. This is not that, and no claim of market power,
+monopoly, or antitrust violation is intended or supported. The DOJ/FTC 2,500 threshold is
+cited because it is the most widely understood yardstick for "how concentrated is
+concentrated," not because these figures establish anything under the merger guidelines.
+Read every use of "single-source" and "highly concentrated" in this piece as shorthand for
+a measured property of federal award data.
 
 **Shares use the positive-obligation denominator.** Three recipients net *negative* over
 the motor-code window — a deobligation larger than what was obligated in the same period.

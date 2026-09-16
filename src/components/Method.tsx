@@ -56,6 +56,20 @@ const RULES: { title: string; body: string }[] = [
       "propulsion-share figure above, where a larger number is the conservative choice.",
   },
   {
+    title: "HHI here is descriptive, not a market definition",
+    body:
+      "The Herfindahl–Hirschman Index on this page is computed on shares of award " +
+      "dollars inside a procurement code. An antitrust HHI is computed on a defined " +
+      "relevant market — a specific product, in a specific geography, with substitutes " +
+      `analysed. This is not that. The ${signals.concentration.hhi_threshold} DOJ/FTC ` +
+      "threshold is cited because it is the most widely understood yardstick for how " +
+      "concentrated counts as concentrated, not because these figures establish " +
+      "anything under the merger guidelines. No claim of market power, monopoly or " +
+      "antitrust violation is intended or supported, and \"single-source\" and " +
+      "\"highly concentrated\" should be read throughout as shorthand for measured " +
+      "properties of federal award data.",
+  },
+  {
     title: "Shares use the positive-obligation denominator",
     body:
       `${signals.concentration_psc1337.negative_recipients} recipients net *negative* ` +
@@ -119,8 +133,11 @@ export function Method() {
               >
                 {c.passed ? "PASS" : "FAIL"}
               </span>
-              <span>
-                <code className="text-[12.5px]">{c.name}</code>
+              {/* min-w-0 plus anywhere-wrapping: the assertion names are long
+                  underscore_separated tokens, which do not break by default and pushed
+                  the whole document into horizontal scroll on a phone. */}
+              <span className="min-w-0">
+                <code className="text-[12.5px] [overflow-wrap:anywhere]">{c.name}</code>
                 <span className="block text-[var(--faint)]">{c.detail}</span>
               </span>
             </li>

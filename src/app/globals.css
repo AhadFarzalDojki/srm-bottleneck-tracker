@@ -5,6 +5,8 @@
    near-neutral and reserves saturation for the series colours below. */
 :root {
   --bg: #fbfaf8;
+  /* A slightly recessed ground, used to set limitation sections back from findings. */
+  --bg-sunk: #f4f1ec;
   --surface: #ffffff;
   --border: #e5e1da;
   --text: #1b1a18;
@@ -24,6 +26,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #14130f;
+    --bg-sunk: #100f0c;
     --surface: #1c1b17;
     --border: #322f29;
     --text: #f2efe9;
@@ -40,6 +43,7 @@
 
 :root[data-theme="dark"] {
   --bg: #14130f;
+  --bg-sunk: #100f0c;
   --surface: #1c1b17;
   --border: #322f29;
   --text: #f2efe9;
@@ -55,6 +59,7 @@
 
 @theme inline {
   --color-bg: var(--bg);
+  --color-bg-sunk: var(--bg-sunk);
   --color-surface: var(--surface);
   --color-border: var(--border);
   --color-text: var(--text);
