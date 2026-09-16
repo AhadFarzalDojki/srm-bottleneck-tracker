@@ -7,7 +7,7 @@
  * who did not build the pipeline.
  */
 import { Card } from "./Chrome";
-import { signals } from "@/lib/signals";
+import { pct, signals } from "@/lib/signals";
 
 const RULES: { title: string; body: string }[] = [
   {
@@ -24,8 +24,8 @@ const RULES: { title: string; body: string }[] = [
     body:
       "USAspending returns separate child registrations per division and location: " +
       "Lockheed Martin appears as several distinct entities. Unrolled, the leader reads " +
-      `${signals.concentration.unrolled_top1_share}%; correctly rolled up it is ` +
-      `${signals.concentration.top1_share}%. Rollup uses the API's parent-recipient ` +
+      `${pct(signals.concentration.unrolled_top1_share)}; correctly rolled up it is ` +
+      `${pct(signals.concentration.top1_share)}. Rollup uses the API's parent-recipient ` +
       "field plus a small hand-maintained map for acquisitions (Orbital ATK→Northrop 2018, " +
       "Aerojet Rocketdyne→L3Harris 2023). That map reflects CURRENT ownership, so awards " +
       "won by Aerojet as an independent company are grouped under L3Harris.",

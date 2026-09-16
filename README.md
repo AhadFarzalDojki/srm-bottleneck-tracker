@@ -57,6 +57,10 @@ Two checks enforce it from opposite directions, and both have caught real drift:
 | `verify_analysis.py` | every figure the prose quotes is present and current |
 | `check_stale_figures.py` | every figure-shaped token in the prose traces back to signals.json, a registered rounding, or a sourced external reference |
 
+`npm run verify -- --live <url>` adds the deployed dashboard as a fourth document, so a
+figure cannot differ between the write-ups and what the site actually serves. That check
+found one: a top-3 share quoted in the prose that no longer appeared on the page.
+
 The second one exists because the first cannot catch a number left behind by an edit.
 It found two: a `92.2%` that had become `90.5%`, and a rounded `92%` still sitting in an
 email template.
@@ -113,22 +117,34 @@ The build refuses to write new figures unless all of these hold:
 
 ## Independent corroboration
 
-The concentration here is already documented by the government, which matters more for
-credibility than any figure in this repo:
+Every citation below was checked against the source document. The distinction between the
+old baseline and current action matters — the GAO report is not recent confirmation.
 
-- **[GAO-18-45](https://www.gao.gov/products/gao-18-45)** — the US solid rocket motor
-  industry consolidated from six manufacturers to two since 1995; one manufacturer's
-  supplier base fell from ~5,000 firms to ~1,000 in twenty years; records DoD's position
-  that current demand can only sustain two manufacturers.
-- **[S.5556 (118th)](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text)**
-  — would have required an SRM industrial base strategy and a capacity review.
-- **[DPA Title III, Sept 2025](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)**
-  — $33.5M to expand solid rocket motor capacity.
+**Baseline (October 2017, five years before the buildup):**
+[GAO-18-45](https://www.gao.gov/products/gao-18-45) reports consolidation from six US
+manufacturers to two since 1995 — named as Aerojet Rocketdyne and **Orbital ATK**, which
+Northrop acquired in June 2018, after publication. A manufacturer *estimated* to GAO that
+its sub-tier supplier base fell from ~5,000 to ~1,000 over twenty years. A senior DoD
+industrial-base official told GAO that DoD needs require two manufacturers but demand
+cannot keep three viable.
 
-GAO describes a *two*-manufacturer base. The motor code shows one supplier at 90.5% and
-Northrop — the other half of that duopoly — at 2.6%. That gap is the thesis, not a hole
-in it: Northrop's motors flow into its own missile programs and subcontracts, so half the
-known industrial base is invisible in the procurement line that names motors.
+**Current action (recent, and the stronger half):**
+[Section 866 of the FY2025 NDAA](https://www.congress.gov/118/plaws/publ159/PLAW-118publ159.pdf)
+— Public Law 118-159, enacted 23 December 2024 — requires a solid rocket motor industrial
+base strategy and an FFRDC review of that base. On 26 September 2025 the department
+awarded [$33.5M in DPA Title III funds](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/):
+$12.6M to Americarb for nozzle insulation material and $20.9M to GD-OTS to become a new
+composite nozzle supplier.
+
+S.5556 would have required a similar strategy but **never became law** — introduced
+17 December 2024, referred to Senate Armed Services, no cosponsors, died with the 118th
+Congress. Noted only as a signal of attention.
+
+**The one discrepancy:** GAO describes a *two*-manufacturer base. The motor code shows one
+supplier at 90.5% and Northrop — which now owns the Orbital ATK business GAO named — at
+2.6%. That gap is the thesis, not a hole in it: Northrop's motors flow into its own missile
+programs and subcontracts, so half the known industrial base is invisible in the
+procurement line that names motors.
 
 ## Framing constraints
 

@@ -109,10 +109,10 @@ export default function Page() {
           <>
             Share of DoD obligations in this category, {signals.windows.concentration},
             rolled up from {c.recipient_entities} registered recipient entities to{" "}
-            {c.owner_groups} corporate owner groups. {c.owner_groups} groups received
-            money here; all but the top three share {pct(c.tail_share)} of it. The HHI is{" "}
-            {c.hhi.toLocaleString()} — but see the note below on what that does and does
-            not mean.
+            {c.owner_groups} corporate owner groups. The top three together hold{" "}
+            {pct(c.top3_share)}; the remaining {c.owner_groups - 3} share{" "}
+            {pct(c.tail_share)} between them. The HHI is {c.hhi.toLocaleString()} — but
+            see the note below on what that does and does not mean.
           </>
         }
       >
@@ -290,9 +290,11 @@ export default function Page() {
         lede={
           <>
             None of the above depends on my reading of the data being right about the
-            underlying industry. The concentration this analysis finds in contract
-            records is already described by GAO, acted on by Congress, and funded
-            against by the department itself.
+            underlying industry. The structure it finds is documented by GAO — in a
+            report from October 2017, five years before the buildup, so a baseline
+            rather than a confirmation — and the constraint is currently being
+            legislated against and funded against. Every citation below was checked
+            against the source document.
           </>
         }
       >

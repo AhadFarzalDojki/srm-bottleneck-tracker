@@ -117,37 +117,58 @@ ejection-seat manufacturer. Neither is missile propulsion.
 ## Independent corroboration
 
 None of the above depends on my reading of the data being right about the underlying
-industry, and it shouldn't. The concentration this analysis finds in contract data is
-already documented by the government itself.
+industry. But the corroboration needs to be characterised precisely, because it splits
+into an old baseline and current action, and only the second is recent.
 
-GAO's 2018 review of the solid rocket motor industrial base
-([GAO-18-45](https://www.gao.gov/products/gao-18-45)) found that since 1995 the industry
-consolidated from six US manufacturers down to two, and that one manufacturer's own
-supplier base fell from roughly 5,000 firms to about 1,000 over twenty years. The same
-report records DoD's position that current SRM demand can only sustain two
-manufacturers — which is to say the concentration is not an accident of procurement but
-a consequence of demand too thin to support more suppliers.
+**The baseline, and it is nearly a decade old.** GAO's review of the solid rocket motor
+industrial base ([GAO-18-45](https://www.gao.gov/products/gao-18-45)) is dated **October
+2017** — the report number is fiscal-year based, so it is easily mistaken for a 2018
+document, and it predates the post-2022 buildup by five years. It reports that since 1995
+the industry consolidated from six US manufacturers to two, which it names as **Aerojet
+Rocketdyne and Orbital ATK** — Northrop Grumman acquired Orbital ATK in June 2018, after
+publication. Separately, *a manufacturer estimated to GAO* that its sub-tier supplier base
+fell from roughly 5,000 firms to about 1,000 over twenty years; that is an industry
+estimate reported by GAO, not a GAO count. And a senior DoD industrial-base-policy
+official told GAO that current DoD needs require two SRM manufacturers, but that there is
+not enough demand to keep three companies economically viable.
 
-Congress has since treated it as a live problem. [S.5556
-(118th)](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text) would have
-required a solid rocket motor industrial base strategy, including an FFRDC review of the
-existing base's capacity to expand. And in September 2025 the department
-[awarded $33.5 million](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)
-in Defense Production Act Title III funding specifically to expand solid rocket motor
-capacity.
+Treat that report as establishing the starting structure. It is not recent confirmation of
+anything, and my fresh data being consistent with it is not the same as the government
+having said so lately.
 
-**One apparent discrepancy is worth confronting directly, because it cuts in favour of
-the argument rather than against it.** GAO describes a *two*-manufacturer base: Aerojet
-Rocketdyne and Northrop Grumman. The motor code shows one supplier at 90.5% — and
-Northrop, the other half of that documented duopoly, at **2.6%**. Utah, where Northrop's
-largest motor plant sits, receives 1.2% of the obligations in the primary lens.
+**Current action, which is recent.** [Section 866 of the FY2025 NDAA](https://www.congress.gov/118/plaws/publ159/PLAW-118publ159.pdf)
+— Public Law 118-159, enacted 23 December 2024 — requires the Under Secretary of Defense
+for Acquisition and Sustainment to submit a strategy for ensuring the industrial base can
+meet requirements for programs of record relating to solid rocket motors, and directs the
+Secretary of Defense to seek a federally funded research centre review of that base,
+covering existing manufacturers' capacity to expand, the capability of potential new
+entrants, and the process for qualifying them. That is enacted law, not a proposal.
+
+Then on **26 September 2025** the department announced two Defense Production Act Title III
+awards [totalling $33.5 million](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/):
+$12.6 million to Americarb for carbonized rayon phenolic, the ablative material that
+insulates rocket nozzles, and $20.9 million to General Dynamics Ordnance and Tactical
+Systems to add nozzle capacity and become a new supplier of composite nozzles and
+insulators. The department is paying to widen a supplier base it considers too narrow.
+
+A companion bill, [S.5556](https://www.congress.gov/bill/118th-congress/senate-bill/5556),
+would have required a similar strategy. Sen. John Cornyn introduced it on 17 December 2024;
+it was referred to the Senate Armed Services Committee, attracted no cosponsors, and died
+there when the 118th Congress ended. **It never became law**, and is mentioned only as an
+additional signal of attention.
+
+**One apparent discrepancy is worth confronting directly, because it cuts in favour of the
+argument rather than against it.** GAO describes a *two*-manufacturer base. The motor code
+shows one supplier at 90.5% — and Northrop Grumman, which now owns the Orbital ATK
+business GAO named as the second manufacturer, at **2.6%**. Utah, where Northrop's largest
+motor plant sits, receives 1.2% of the obligations in the primary lens.
 
 That is not a contradiction of GAO. It is the same point this analysis keeps arriving at
 from different directions: Northrop's motor production largely flows into Northrop's own
-missile programs and into subcontracts, neither of which appears as separately-coded
-motor procurement. A duopoly exists in the industrial base; only one member of it is
-visible in the public procurement line that names motors. If you were using this data
-alone to map the motor supply base, you would miss half of it.
+missile programs and into subcontracts, neither of which appears as separately-coded motor
+procurement. A duopoly exists in the industrial base; only one member of it is visible in
+the public procurement line that names motors. If you were using this data alone to map
+the motor supply base, you would miss half of it.
 
 ## What I have not done
 

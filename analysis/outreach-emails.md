@@ -103,20 +103,40 @@ non-institutional source usable to them.
 ## Independent corroboration to cite
 
 Leading with your own dataset alone is a harder sell than leading with a dataset that
-agrees with GAO. Worth having these to hand:
+agrees with the government. All of these were checked against the source document, and the
+distinction between the old baseline and the current action matters — do not present the
+GAO report as recent.
 
-- **[GAO-18-45](https://www.gao.gov/products/gao-18-45)** — the SRM industrial base
-  consolidated from six US manufacturers to two since 1995; one manufacturer's supplier
-  base fell from ~5,000 to ~1,000 in twenty years; records DoD's position that current
-  demand can only sustain two manufacturers.
-- **[S.5556 (118th)](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text)**
-  — would have required an SRM industrial base strategy and an FFRDC capacity review.
-- **[DPA Title III, Sept 2025](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)**
-  — $33.5M specifically to expand solid rocket motor capacity.
+**The baseline (old — say so):**
 
-The useful framing: the government has documented the concentration and is spending money
-on it. What the contract data adds is that the motor procurement line itself never moved,
-and that only one of the two known manufacturers is even visible in it.
+- **[GAO-18-45](https://www.gao.gov/products/gao-18-45)**, dated **October 2017** (the
+  number is fiscal-year based, so it is easily mistaken for 2018). Consolidation from six
+  US manufacturers to two since 1995 — GAO names them as Aerojet Rocketdyne and **Orbital
+  ATK**, which Northrop acquired in June 2018, after publication. A manufacturer
+  *estimated* to GAO that its sub-tier supplier base fell from ~5,000 to ~1,000 over
+  twenty years (an industry estimate, not a GAO count). A senior DoD industrial-base
+  official told GAO that DoD needs require two manufacturers but there is not enough
+  demand to keep three viable.
+
+**Current action (recent — this is the stronger half):**
+
+- **[Sec. 866, FY2025 NDAA](https://www.congress.gov/118/plaws/publ159/PLAW-118publ159.pdf)**
+  — Public Law 118-159, **enacted 23 December 2024**. Requires a solid rocket motor
+  industrial base strategy and directs an FFRDC review of the base, covering existing
+  capacity to expand and the qualification of new entrants. This is enacted law; lead with
+  it rather than with a bill.
+- **[DPA Title III, 26 September 2025](https://www.war.gov/News/Releases/Release/Article/4316035/department-of-war-awards-335-million-to-increase-solid-rocket-motor-capacity-an/)**
+  — $33.5 million total: $12.6 million to Americarb for carbonized rayon phenolic (nozzle
+  insulation) and $20.9 million to GD-OTS to become a new composite nozzle supplier.
+
+**Do not cite S.5556 as if it passed.** Cornyn introduced it 17 December 2024; it was
+referred to Senate Armed Services, got no cosponsors, and died with the 118th Congress. It
+is a signal of attention and nothing more. Section 866 is the citation that carries weight.
+
+The useful framing: the government documented the concentration years ago, has since
+legislated an assessment of it, and is now paying to widen the supplier base. What the
+contract data adds is that the motor procurement line itself never moved, and that only
+one of the two known manufacturers is even visible in it.
 
 ## Other questions to expect
 

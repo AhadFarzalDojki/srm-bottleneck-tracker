@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Both write-ups quote the same figures, so both are checked. A number that appears in
@@ -43,6 +44,36 @@ SUBSET = {
 SIG = os.path.join(ROOT, "data", "signals.json")
 
 
+LIVE_SUBSET = {
+    # Figures that must be identical between the write-ups and the deployed dashboard.
+    # A reader who checks a number in the piece against the site and finds a mismatch
+    # discards both, so this is checked against the served HTML rather than the build.
+    "top-1 share", "top-3 share", "HHI", "unrolled share",
+    "propulsion share of lens", "PSC 1410 share", "PSC 1440 share", "PSC 1425 share",
+    "PSC1337 top-1 share", "PSC1337 HHI", "PSC1337 group count", "PSC1337 total",
+    "growth multiple", "ex-contract multiple", "program share of window",
+    "ex-award top-1 share", "ex-award HHI", "program award id",
+    "pre-acquisition top share", "post-acquisition top share",
+    "Florida share", "Utah share", "Arkansas share",
+}
+
+
+def fetch_live(url):
+    """The deployed page as plain text.
+
+    React writes <!-- --> markers between interpolated values, so "FY" and "2016" are
+    separate text nodes. Strip comments before tags or every interpolated figure looks
+    like it is missing.
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": "srm-verify/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        html = r.read().decode("utf-8", "replace")
+    html = re.sub(r"<!--.*?-->", "", html, flags=re.S)
+    html = re.sub(r"<script.*?</script>", " ", html, flags=re.S)
+    html = re.sub(r"<[^>]+>", " ", html)
+    return re.sub(r"\s+", " ", html)
+
+
 def main():
     d = json.load(open(SIG))
     # Collapse whitespace: the prose is hard-wrapped, so "$57\nmillion" must still
@@ -50,6 +81,13 @@ def main():
     # that have nothing to do with whether the figure is right.
     texts = {name: re.sub(r"\s+", " ", open(path).read())
              for name, path in DOCS.items()}
+
+    # --live <url> adds the deployed dashboard as another document to check.
+    live_url = None
+    if "--live" in sys.argv:
+        live_url = sys.argv[sys.argv.index("--live") + 1]
+        texts["LIVE dashboard"] = fetch_live(live_url)
+        SUBSET["LIVE dashboard"] = LIVE_SUBSET
 
     s, c, p, g = d["surge"], d["concentration"], d["concentration_psc1337"], d["geography"]
     mix = d["psc_mix"]
@@ -66,8 +104,10 @@ def main():
     claims = [
         # --- the surge ---
         ("growth multiple", f"{s['multiple']}×"),
-        ("baseline average", f"${s['baseline_avg']/1e6:.0f} million"),
-        ("recent average", f"${s['recent_avg']/1e9:.2f} billion"),
+        ("baseline average", [f"${s['baseline_avg']/1e6:.0f} million",
+                              f"${s['baseline_avg']/1e6:.0f}M"]),
+        ("recent average", [f"${s['recent_avg']/1e9:.2f} billion",
+                            f"${s['recent_avg']/1e9:.2f}B"]),
         ("peak", f"${s['peak']/1e9:.2f} billion in FY{s['peak_fy']}"),
         ("NASA control multiple", f"{s['control_multiple']}×"),
         ("NASA recent average", f"${s['control_recent_avg']/1e6:.0f} million"),
@@ -93,7 +133,9 @@ def main():
         ("PSC1337 first year", f"${psc[0]/1e6:.0f} million"),
         ("PSC1337 last year", f"${psc[-1]/1e6:.0f} million"),
         ("PSC1337 top-1 share", f"{p['top1_share']}%"),
-        ("PSC1337 total", f"${p['total']/1e6:.0f} million"),
+        # The dashboard renders compact dollars and the prose renders words; both
+        # spellings of the same value are accepted rather than forcing one style.
+        ("PSC1337 total", [f"${p['total']/1e6:.0f} million", f"${p['total']/1e6:.0f}M"]),
         ("pre-acquisition top share",
          f"{d['acquisition_timing']['pre']['top_share']}%"),
         ("post-acquisition top share",
@@ -219,6 +261,9 @@ def main():
             for doc, text in texts.items())
         print(f"  [{marks}] {label:{width}s}  {show(needle)}")
     print("\n  columns: " + " | ".join(texts) + "   (o found, X missing, . n/a)")
+
+    if live_url:
+        print(f"\n  LIVE dashboard checked: {live_url}")
 
     if failures:
         print("\n" + "\n".join(failures))

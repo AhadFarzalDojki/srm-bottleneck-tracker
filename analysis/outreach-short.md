@@ -50,14 +50,19 @@ Orlando integration base. Utah, home of the largest solid rocket motor plant in 
 country, gets **1.2%**. The clearest unambiguous motor contract in the dataset is $53.6
 million of Stinger flight motors in Camden, Arkansas — **1.3%**.
 
-**This lines up with what the government already says.** GAO's review of the solid
-rocket motor industrial base ([GAO-18-45](https://www.gao.gov/products/gao-18-45)) found
-the industry consolidated from six US manufacturers to two since 1995, and records DoD's
-position that current demand can only sustain two. Congress has since sought an SRM
-industrial base strategy ([S.5556](https://www.congress.gov/bill/118th-congress/senate-bill/5556/text)),
-and DPA Title III money went to expanding motor capacity in September 2025. The contract
-data agrees with all of it — and adds that only *one* of those two manufacturers is
-visible in the procurement line that names motors. Northrop, the other, sits at 2.6%.
+**This lines up with what the government says — with one caveat about dates.** GAO's
+review of the SRM industrial base ([GAO-18-45](https://www.gao.gov/products/gao-18-45))
+found consolidation from six US manufacturers to two since 1995, and records a senior DoD
+industrial-base official saying DoD needs require two manufacturers but demand cannot keep
+three viable. That report is dated **October 2017** — a baseline, five years before the
+buildup, not recent confirmation. What *is* recent: [Section 866 of the FY2025
+NDAA](https://www.congress.gov/118/plaws/publ159/PLAW-118publ159.pdf) (enacted 23 December
+2024) requires a solid rocket motor industrial base strategy and an FFRDC review of it,
+and in September 2025 the department put $33.5 million of DPA Title III money into motor
+capacity — including $20.9 million for General Dynamics to become a *new* nozzle supplier.
+The contract data agrees with all of it, and adds that only one of the two known
+manufacturers is visible in the procurement line that names motors. Northrop, the other,
+sits at 2.6%.
 
 **The limits, stated plainly.** The 78% is award dollars received by a prime integrator,
 not manufacturing share. And the flat PSC 1337 line does not prove motor *production*
