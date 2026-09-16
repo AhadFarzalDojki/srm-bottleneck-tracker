@@ -36,8 +36,11 @@ Keep these short. Both are ~140 words on purpose.
 > Caveat I'd raise myself: DoD obligations in that industry code did grow 20.2×, but one
 > Lockheed contract for JAGM/Hellfire production is half of that. Excluding it, 7.3×.
 >
-> Dashboard here: [link]. Happy to share the data or walk through the method — it's all
-> public API, no auth, and the pipeline is open.
+> Dashboard: https://srm-bottleneck-tracker.vercel.app
+> Code and data: https://github.com/AhadFarzalDojki/srm-bottleneck-tracker
+>
+> Happy to walk through the method — it's all public API, no auth, and the whole
+> pipeline is open.
 >
 > [your name]
 
@@ -63,7 +66,10 @@ Keep these short. Both are ~140 words on purpose.
 > independent view of motor volume at all. The bottleneck everyone names is the part the
 > data cannot see.
 >
-> Full analysis and dashboard: [link]. All USAspending API, reproducible.
+> Full analysis and dashboard: https://srm-bottleneck-tracker.vercel.app
+> Code and data: https://github.com/AhadFarzalDojki/srm-bottleneck-tracker
+>
+> All USAspending API, reproducible end to end.
 >
 > [your name]
 

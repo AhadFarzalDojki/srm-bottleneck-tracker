@@ -1,5 +1,7 @@
 # The Solid Rocket Motor Bottleneck
 
+**Live dashboard: https://srm-bottleneck-tracker.vercel.app**
+
 A dashboard and written analysis built on public U.S. federal contract data, showing
 how concentrated American missile propulsion procurement became during the post-2022
 buildup.

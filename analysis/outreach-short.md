@@ -76,7 +76,7 @@ Leads with the finding, not the tool. Replace the bracketed parts.
 > rocket motors (PSC 1337) has been flat for a decade, peaked in FY2020 before the
 > buildup, and 92% of it goes to a single supplier.
 >
-> I built a small dashboard for it: [link]. Happy to share the underlying data or walk
+> I built a small dashboard for it: https://srm-bottleneck-tracker.vercel.app. Happy to share the underlying data or walk
 > through the method — it's all public API, no auth, and the pipeline is open.
 >
 > [name]
