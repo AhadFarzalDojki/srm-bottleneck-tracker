@@ -1,0 +1,2508 @@
+{
+  "generated": "2026-09-16",
+  "source": "USAspending.gov API v2 (public, no authentication)",
+  "lens_labels": {
+    "dod_336415": "DoD - NAICS 336415 (propulsion mfg)",
+    "nasa_336415": "NASA - NAICS 336415 (control)",
+    "psc1337": "PSC 1337 (solid-fuel motors)"
+  },
+  "windows": {
+    "series": "FY2016-FY2025",
+    "concentration": "FY2020-FY2025"
+  },
+  "series": [
+    {
+      "fy": 2016,
+      "dod_336415": 66188627.29,
+      "nasa_336415": 345258662.0,
+      "psc1337": 144880644.05
+    },
+    {
+      "fy": 2017,
+      "dod_336415": 16146548.74,
+      "nasa_336415": 334515772.55,
+      "psc1337": 168343424.47
+    },
+    {
+      "fy": 2018,
+      "dod_336415": 69616651.59,
+      "nasa_336415": 340252472.38,
+      "psc1337": 114591971.95
+    },
+    {
+      "fy": 2019,
+      "dod_336415": 77616911.22,
+      "nasa_336415": 389876312.33,
+      "psc1337": 111462762.93
+    },
+    {
+      "fy": 2020,
+      "dod_336415": 405178418.84,
+      "nasa_336415": 402798275.0,
+      "psc1337": 170659876.39
+    },
+    {
+      "fy": 2021,
+      "dod_336415": 373571388.62,
+      "nasa_336415": 348460215.0,
+      "psc1337": 113034030.61
+    },
+    {
+      "fy": 2022,
+      "dod_336415": 84724128.11,
+      "nasa_336415": 270283138.82,
+      "psc1337": 110899052.01
+    },
+    {
+      "fy": 2023,
+      "dod_336415": 1471718431.27,
+      "nasa_336415": 234246357.42,
+      "psc1337": 130121073.34
+    },
+    {
+      "fy": 2024,
+      "dod_336415": 883480934.61,
+      "nasa_336415": 202900984.31,
+      "psc1337": 129597883.52
+    },
+    {
+      "fy": 2025,
+      "dod_336415": 1116534559.29,
+      "nasa_336415": 226118375.78,
+      "psc1337": 138177562.59
+    }
+  ],
+  "surge": {
+    "baseline_fys": [
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "baseline_avg": 57392184.71,
+    "recent_fys": [
+      2023,
+      2024,
+      2025
+    ],
+    "recent_avg": 1157244641.72,
+    "multiple": 20.2,
+    "peak_fy": 2023,
+    "peak": 1471718431.27,
+    "latest_fy": 2025,
+    "latest": 1116534559.29,
+    "control_baseline_avg": 352475804.81,
+    "control_recent_avg": 221088572.5,
+    "control_multiple": 0.63
+  },
+  "concentration": {
+    "total": 4325242082.15,
+    "net_total": 4325242082.15,
+    "negative_recipients": 0,
+    "deobligated": 0.0,
+    "recipient_entities": 100,
+    "owner_groups": 94,
+    "top1_share": 78.0,
+    "top3_share": 91.7,
+    "hhi": 6188,
+    "hhi_threshold": 2500,
+    "unrolled_top1_share": 55.0,
+    "groups": [
+      {
+        "group": "Lockheed Martin",
+        "amount": 3372702630.04,
+        "share": 77.98,
+        "entities": 4,
+        "entity_names": [
+          "Lockheed Martin Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "RTX",
+        "amount": 382543737.4,
+        "share": 8.84,
+        "entities": 3,
+        "entity_names": [
+          "Raytheon Company"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Kongsberg",
+        "amount": 209846578.0,
+        "share": 4.85,
+        "entities": 1,
+        "entity_names": [
+          "Kongsberg Defence & Aerospace AS"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "L3Harris",
+        "amount": 60655595.1,
+        "share": 1.4,
+        "entities": 2,
+        "entity_names": [
+          "Aerojet Rocketdyne Inc",
+          "Aerojet Rocketdyne, Inc."
+        ],
+        "ownership_note": "Aerojet Rocketdyne acquired by L3Harris, July 2023"
+      },
+      {
+        "group": "Lektron Inc",
+        "amount": 38425671.3,
+        "share": 0.89,
+        "entities": 1,
+        "entity_names": [
+          "Lektron Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "SGL Carbon SE",
+        "amount": 37098089.22,
+        "share": 0.86,
+        "entities": 1,
+        "entity_names": [
+          "SGL Composites Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Northrop Grumman",
+        "amount": 33804137.66,
+        "share": 0.78,
+        "entities": 1,
+        "entity_names": [
+          "Atk Launch Systems LLC"
+        ],
+        "ownership_note": "Orbital ATK's post-acquisition shell; Northrop acquired Orbital ATK in June 2018"
+      },
+      {
+        "group": "Kratos",
+        "amount": 24419842.16,
+        "share": 0.56,
+        "entities": 1,
+        "entity_names": [
+          "Kratos Space & Missile Defense Systems, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Sas Manufacturing LLC",
+        "amount": 22292871.75,
+        "share": 0.52,
+        "entities": 1,
+        "entity_names": [
+          "Sas Manufacturing LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "On-Point Defense Technologies LLC",
+        "amount": 18079591.97,
+        "share": 0.42,
+        "entities": 1,
+        "entity_names": [
+          "On-Point Defense Technologies LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Boeing",
+        "amount": 15511238.59,
+        "share": 0.36,
+        "entities": 1,
+        "entity_names": [
+          "The Boeing Company"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Government Of Canada",
+        "amount": 12993357.0,
+        "share": 0.3,
+        "entities": 1,
+        "entity_names": [
+          "Canadian Commercial Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Marvin Engineering Co, Inc",
+        "amount": 11638589.46,
+        "share": 0.27,
+        "entities": 1,
+        "entity_names": [
+          "Marvin Engineering Co, Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Moog",
+        "amount": 9304377.0,
+        "share": 0.22,
+        "entities": 1,
+        "entity_names": [
+          "Moog Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ibc Materials And Technologies, LLC",
+        "amount": 6499839.19,
+        "share": 0.15,
+        "entities": 1,
+        "entity_names": [
+          "Ibc Materials And Technologies, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Aeronautical Systems, Incorporated",
+        "amount": 6286272.78,
+        "share": 0.15,
+        "entities": 1,
+        "entity_names": [
+          "Aeronautical Systems, Incorporated"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Busek Co., Inc.",
+        "amount": 4718222.0,
+        "share": 0.11,
+        "entities": 1,
+        "entity_names": [
+          "Busek Co., Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Honeywell",
+        "amount": 4613875.0,
+        "share": 0.11,
+        "entities": 1,
+        "entity_names": [
+          "Honeywell International Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Intermat",
+        "amount": 3496821.55,
+        "share": 0.08,
+        "entities": 1,
+        "entity_names": [
+          "Intermat"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Scioteq LLC",
+        "amount": 3305568.0,
+        "share": 0.08,
+        "entities": 1,
+        "entity_names": [
+          "Scioteq LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Alliant Techsystems Operations LLC",
+        "amount": 3185517.22,
+        "share": 0.07,
+        "entities": 1,
+        "entity_names": [
+          "Alliant Techsystems Operations LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Dutch Valley Supply Co.",
+        "amount": 2966120.16,
+        "share": 0.07,
+        "entities": 1,
+        "entity_names": [
+          "Dutch Valley Supply Co."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Lcf Systems, Inc.",
+        "amount": 2582558.02,
+        "share": 0.06,
+        "entities": 1,
+        "entity_names": [
+          "Lcf Systems, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Asrc Federal Facilities Logistics, LLC",
+        "amount": 2215457.39,
+        "share": 0.05,
+        "entities": 1,
+        "entity_names": [
+          "Asrc Federal Facilities Logistics, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Arlington Precision Components, LLC",
+        "amount": 1844887.48,
+        "share": 0.04,
+        "entities": 1,
+        "entity_names": [
+          "Arlington Precision Components, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Pioneer Industries, LLC",
+        "amount": 1696935.02,
+        "share": 0.04,
+        "entities": 1,
+        "entity_names": [
+          "Pioneer Industries, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Mckenna Brytan Industries LLC",
+        "amount": 1415000.0,
+        "share": 0.03,
+        "entities": 1,
+        "entity_names": [
+          "Mckenna Brytan Industries LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Duramax Marine, LLC",
+        "amount": 1364053.0,
+        "share": 0.03,
+        "entities": 1,
+        "entity_names": [
+          "Duramax Marine, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "De Technologies Inc",
+        "amount": 1360654.0,
+        "share": 0.03,
+        "entities": 1,
+        "entity_names": [
+          "De Technologies Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "March Electronics, Inc.",
+        "amount": 1336456.14,
+        "share": 0.03,
+        "entities": 1,
+        "entity_names": [
+          "March Electronics, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Phoenix Trading Inc",
+        "amount": 1323481.24,
+        "share": 0.03,
+        "entities": 1,
+        "entity_names": [
+          "Phoenix Trading Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Compagnie De Developpement De L'Eau S.A.",
+        "amount": 1038737.69,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "BAE Systems Land & Armaments L.P."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "S I T Corporation",
+        "amount": 1035752.7,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "S I T Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Astro Machine & Tool Works, LLC",
+        "amount": 820370.05,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Astro Machine & Tool Works, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ensign-Bickford Industries, Inc.",
+        "amount": 813828.0,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Ensign-Bickford Aerospace & Defense Company"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "The Handy Tool & Mfg. Co., Inc",
+        "amount": 761850.0,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "The Handy Tool & Mfg. Co., Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ace And Company, Inc",
+        "amount": 754660.0,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Ace And Company, Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Tnl Sales LLC",
+        "amount": 725910.86,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Tnl Sales LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Statz Corp",
+        "amount": 699702.05,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Statz Corp"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Lobo Ventures Ltd",
+        "amount": 688025.0,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Lobo Ventures Ltd"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Williams International Co LLC",
+        "amount": 685650.23,
+        "share": 0.02,
+        "entities": 1,
+        "entity_names": [
+          "Williams International Co., L.L.C."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "U.S.A. Spares Inc.",
+        "amount": 611943.89,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "U.S.A. Spares Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Knobley Technical Associates, LLC",
+        "amount": 590671.62,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Knobley Technical Associates, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "A.G.H. Industries, LLC",
+        "amount": 587512.02,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "A.G.H. Industries, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Hoosier Industrial Supply, Inc",
+        "amount": 533350.3,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Hoosier Industrial Supply, Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Avans Machine, Inc",
+        "amount": 524827.82,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Avans Machine, Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Edel Engineering Development Co.",
+        "amount": 500810.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Edel Engineering Development Co."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "L'Anse Manufacturing & Technology, Inc.",
+        "amount": 477776.46,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "L'Anse Manufacturing & Technology, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Aereos, LLC",
+        "amount": 475978.99,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Aereos, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Eaton Aerospace LLC",
+        "amount": 470552.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Eaton Aerospace LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Xometry, Inc",
+        "amount": 469210.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Xometry, Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Kampi Components Co Inc",
+        "amount": 467268.87,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Kampi Components Co Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Fitzhugh Clifton",
+        "amount": 413280.44,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Fitzhugh Clifton"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Marvin Test Solutions, Inc.",
+        "amount": 400000.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Marvin Test Solutions, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Dc Precision LLC",
+        "amount": 386140.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Dc Precision LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Dela Technology Corporation",
+        "amount": 380689.74,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Dela Technology Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Echelon Supply And Service, Inc.",
+        "amount": 362349.03,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Echelon Supply And Service, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Burhani Enterprises Inc",
+        "amount": 356351.88,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Burhani Enterprises Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Jgils, LLC",
+        "amount": 353936.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Jgils, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Bright Lights USA, Inc",
+        "amount": 351962.51,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Bright Lights USA, Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Craft Machine Works, Inc.",
+        "amount": 346721.4,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Craft Machine Works, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Middle Georgia Diversified Industries, Inc.",
+        "amount": 342826.02,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Middle Georgia Diversified Industries, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "BAE Systems Information And Electronic Systems Integration Inc.",
+        "amount": 338960.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "BAE Systems Information And Electronic Systems Integration Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ridge Instruments Co Inc",
+        "amount": 331087.89,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Ridge Instruments Co Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Vacco Industries",
+        "amount": 319970.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Vacco Industries"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "R & M Government Services Inc",
+        "amount": 308989.36,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "R & M Government Services Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Blue Cord Logistic Strategies Inc",
+        "amount": 304664.5,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Blue Cord Logistic Strategies Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ruotanen Associates Inc",
+        "amount": 297521.48,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Ruotanen Associates Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Adirondack Electronics Inc",
+        "amount": 288870.26,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Adirondack Electronics Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Axion Corporation",
+        "amount": 287755.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Axion Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "C U Enterprises Ltd",
+        "amount": 282841.5,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "C U Enterprises Ltd"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Basic Rubber And Plastics Co.",
+        "amount": 281451.92,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Basic Rubber And Plastics Co."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Pall Corp",
+        "amount": 273050.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Pall Aeropower Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Freedom Precision Manufacturing LLC",
+        "amount": 272070.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Freedom Precision Manufacturing LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Chand, L.L.C.",
+        "amount": 271383.8,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Chand, L.L.C."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Shield Technologies Corp",
+        "amount": 271309.44,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Shield Technologies Corp"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Bradley-Thompson Tool Company",
+        "amount": 268002.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Bradley-Thompson Tool Company"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "L.R.G. Corporation",
+        "amount": 261770.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "L.R.G. Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Electric Boat Corporation",
+        "amount": 247683.4,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Electric Boat Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "General Dynamics",
+        "amount": 243263.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "General Dynamics Ordnance & Tactical Systems, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Alamo Aircraft, Ltd.",
+        "amount": 241566.08,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Alamo Aircraft, Ltd."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Eilers Machine & Welding Inc",
+        "amount": 239373.6,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Eilers Machine & Welding Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ripa Engineering Corp",
+        "amount": 237300.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Ripa Engineering Corp"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "A&B Foundry, LLC",
+        "amount": 236927.5,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "A&B Foundry, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Polytech Defense Spares LLC",
+        "amount": 231234.52,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Polytech Defense Spares LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Alek Industries Inc",
+        "amount": 227822.3,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Alek Industries Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Vertex Modernization And Sustainment LLC",
+        "amount": 227695.01,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Vertex Modernization And Sustainment LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Defense & Aerospace Manufacturing LLC",
+        "amount": 221243.94,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Defense & Aerospace Manufacturing LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Cns Co LLC",
+        "amount": 219580.35,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Cns Co LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Linmarr Associates, Inc.",
+        "amount": 218836.35,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Linmarr Associates, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Eci Defense Group, Inc.",
+        "amount": 211217.24,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Eci Defense Group, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Aerometals, Inc.",
+        "amount": 209632.0,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Aerometals, Inc."
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "A Wiley & Associates Inc",
+        "amount": 207024.3,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "A Wiley & Associates Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Innovative Drone Solutions Pty. Ltd.",
+        "amount": 205315.0,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Innovative Drone Solutions Pty. Ltd."
+        ],
+        "ownership_note": null
+      }
+    ]
+  },
+  "concentration_psc1337": {
+    "total": 807060027.13,
+    "net_total": 792489478.46,
+    "negative_recipients": 3,
+    "deobligated": 14570548.67,
+    "recipient_entities": 23,
+    "owner_groups": 16,
+    "top1_share": 90.5,
+    "top3_share": 99.3,
+    "hhi": 8242,
+    "hhi_threshold": 2500,
+    "unrolled_top1_share": 90.5,
+    "groups": [
+      {
+        "group": "L3Harris",
+        "amount": 730701042.86,
+        "share": 90.54,
+        "entities": 1,
+        "entity_names": [
+          "Aerojet Rocketdyne Coleman Aerospace Inc"
+        ],
+        "ownership_note": "Aerojet Rocketdyne acquired by L3Harris, July 2023"
+      },
+      {
+        "group": "Lockheed Martin",
+        "amount": 49509714.34,
+        "share": 6.13,
+        "entities": 3,
+        "entity_names": [
+          "Lockheed Martin Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Northrop Grumman",
+        "amount": 21009342.0,
+        "share": 2.6,
+        "entities": 1,
+        "entity_names": [
+          "Northrop Grumman Systems Corp"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "RTX",
+        "amount": 1898654.53,
+        "share": 0.24,
+        "entities": 1,
+        "entity_names": [
+          "Raytheon Company"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Bbg Inc",
+        "amount": 1710000.0,
+        "share": 0.21,
+        "entities": 1,
+        "entity_names": [
+          "Bbg Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Kaman",
+        "amount": 1315860.0,
+        "share": 0.16,
+        "entities": 1,
+        "entity_names": [
+          "Kaman Aerospace Corporation"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Pacific Scientific Energetic Materials Co California LLC",
+        "amount": 545235.0,
+        "share": 0.07,
+        "entities": 1,
+        "entity_names": [
+          "Pacific Scientific Energetic Materials Co California LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Chemring",
+        "amount": 119049.56,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Chemring Energetic Devices Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "South-Tek Systems, LLC",
+        "amount": 84950.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "South-Tek Systems, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Helicon Chemical Company LLC",
+        "amount": 50000.0,
+        "share": 0.01,
+        "entities": 1,
+        "entity_names": [
+          "Helicon Chemical Company LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Fairbanks Morse, LLC",
+        "amount": 39221.99,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Fairbanks Morse, LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Native Instinct LLC",
+        "amount": 33872.3,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Native Instinct LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Ecaps Aktiebolag",
+        "amount": 30000.0,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Ecaps Aktiebolag"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Milcots LLC",
+        "amount": 8400.0,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Milcots LLC"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "United States Technologies Inc",
+        "amount": 3750.0,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "United States Technologies Inc"
+        ],
+        "ownership_note": null
+      },
+      {
+        "group": "Leonard-Splaine Co Inc",
+        "amount": 934.55,
+        "share": 0.0,
+        "entities": 1,
+        "entity_names": [
+          "Leonard-Splaine Co Inc"
+        ],
+        "ownership_note": null
+      }
+    ]
+  },
+  "geography": {
+    "total": 4088231809.57,
+    "states": [
+      {
+        "state": "FL",
+        "name": "Florida",
+        "amount": 2405506860.34,
+        "share": 58.84,
+        "note": "Orlando - Lockheed Martin; AGMS (JAGM/HELLFIRE) production, the single largest award in the data"
+      },
+      {
+        "state": "MD",
+        "name": "Maryland",
+        "amount": 556162528.57,
+        "share": 13.6,
+        "note": "MK 41 vertical launching system modules - launcher hardware, not propulsion"
+      },
+      {
+        "state": "NJ",
+        "name": "New Jersey",
+        "amount": 452655196.27,
+        "share": 11.07,
+        "note": "MK 8 Standard Module - launcher hardware, not propulsion"
+      },
+      {
+        "state": "AZ",
+        "name": "Arizona",
+        "amount": 354864768.6,
+        "share": 8.68,
+        "note": "Tucson - RTX missile production"
+      },
+      {
+        "state": "CA",
+        "name": "California",
+        "amount": 78251426.74,
+        "share": 1.91,
+        "note": null
+      },
+      {
+        "state": "AR",
+        "name": "Arkansas",
+        "amount": 53296032.92,
+        "share": 1.3,
+        "note": "Camden - Aerojet Rocketdyne Stinger flight motors: the clearest actual solid-motor production contract anywhere in this data"
+      },
+      {
+        "state": "UT",
+        "name": "Utah",
+        "amount": 49872130.59,
+        "share": 1.22,
+        "note": "Home of the largest US solid rocket motor plant, yet ~1% of DoD propulsion-coded obligations - the motor work is reached by subcontract"
+      },
+      {
+        "state": "AL",
+        "name": "Alabama",
+        "amount": 41488268.03,
+        "share": 1.01,
+        "note": null
+      },
+      {
+        "state": "CO",
+        "name": "Colorado",
+        "amount": 22385418.9,
+        "share": 0.55,
+        "note": null
+      },
+      {
+        "state": "NY",
+        "name": "New York",
+        "amount": 15198131.64,
+        "share": 0.37,
+        "note": null
+      },
+      {
+        "state": "IN",
+        "name": "Indiana",
+        "amount": 12547424.32,
+        "share": 0.31,
+        "note": null
+      },
+      {
+        "state": "WA",
+        "name": "Washington",
+        "amount": 7623280.68,
+        "share": 0.19,
+        "note": null
+      },
+      {
+        "state": "GA",
+        "name": "Georgia",
+        "amount": 6938414.23,
+        "share": 0.17,
+        "note": null
+      },
+      {
+        "state": "MA",
+        "name": "Massachusetts",
+        "amount": 6900845.67,
+        "share": 0.17,
+        "note": null
+      },
+      {
+        "state": "TX",
+        "name": "Texas",
+        "amount": 4428006.34,
+        "share": 0.11,
+        "note": null
+      },
+      {
+        "state": "ME",
+        "name": "Maine",
+        "amount": 3506801.71,
+        "share": 0.09,
+        "note": null
+      },
+      {
+        "state": "OH",
+        "name": "Ohio",
+        "amount": 3391741.79,
+        "share": 0.08,
+        "note": null
+      },
+      {
+        "state": "PA",
+        "name": "Pennsylvania",
+        "amount": 3331076.76,
+        "share": 0.08,
+        "note": null
+      },
+      {
+        "state": "MI",
+        "name": "Michigan",
+        "amount": 2769385.43,
+        "share": 0.07,
+        "note": null
+      },
+      {
+        "state": "VA",
+        "name": "Virginia",
+        "amount": 1989341.15,
+        "share": 0.05,
+        "note": null
+      },
+      {
+        "state": "CT",
+        "name": "Connecticut",
+        "amount": 1065740.98,
+        "share": 0.03,
+        "note": null
+      },
+      {
+        "state": "OK",
+        "name": "Oklahoma",
+        "amount": 857697.5,
+        "share": 0.02,
+        "note": null
+      },
+      {
+        "state": "WV",
+        "name": "West Virginia",
+        "amount": 849268.37,
+        "share": 0.02,
+        "note": null
+      },
+      {
+        "state": "MT",
+        "name": "Montana",
+        "amount": 725910.86,
+        "share": 0.02,
+        "note": null
+      },
+      {
+        "state": "IL",
+        "name": "Illinois",
+        "amount": 719153.94,
+        "share": 0.02,
+        "note": null
+      },
+      {
+        "state": "LA",
+        "name": "Louisiana",
+        "amount": 625319.8,
+        "share": 0.02,
+        "note": null
+      },
+      {
+        "state": "MN",
+        "name": "Minnesota",
+        "amount": 482559.44,
+        "share": 0.01,
+        "note": null
+      },
+      {
+        "state": "WI",
+        "name": "Wisconsin",
+        "amount": 430676.08,
+        "share": 0.01,
+        "note": null
+      },
+      {
+        "state": "IA",
+        "name": "Iowa",
+        "amount": 374726.5,
+        "share": 0.01,
+        "note": null
+      },
+      {
+        "state": "NE",
+        "name": "Nebraska",
+        "amount": 239373.6,
+        "share": 0.01,
+        "note": null
+      },
+      {
+        "state": "MO",
+        "name": "Missouri",
+        "amount": 148795.12,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "KY",
+        "name": "Kentucky",
+        "amount": 137294.73,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "NC",
+        "name": "North Carolina",
+        "amount": 81793.37,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "MS",
+        "name": "Mississippi",
+        "amount": 60335.0,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "NM",
+        "name": "New Mexico",
+        "amount": 46464.51,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "OR",
+        "name": "Oregon",
+        "amount": 16801.98,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "TN",
+        "name": "Tennessee",
+        "amount": 9833.54,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "SD",
+        "name": "South Dakota",
+        "amount": 3798.53,
+        "share": 0.0,
+        "note": null
+      },
+      {
+        "state": "ID",
+        "name": "Idaho",
+        "amount": -51.2,
+        "share": -0.0,
+        "note": null
+      },
+      {
+        "state": "KS",
+        "name": "Kansas",
+        "amount": -222134.35,
+        "share": -0.01,
+        "note": null
+      },
+      {
+        "state": "VT",
+        "name": "Vermont",
+        "amount": -622119.8,
+        "share": -0.02,
+        "note": null
+      },
+      {
+        "state": "NH",
+        "name": "New Hampshire",
+        "amount": -906509.61,
+        "share": -0.02,
+        "note": null
+      }
+    ],
+    "top4_share": 92.2
+  },
+  "psc_mix": {
+    "total": 4332526579.52,
+    "codes": [
+      {
+        "code": "1410",
+        "name": "Guided Missiles",
+        "amount": 2315306153.63,
+        "share": 53.44,
+        "is_propulsion": false
+      },
+      {
+        "code": "1440",
+        "name": "Launchers, Guided Missile",
+        "amount": 1382885613.82,
+        "share": 31.92,
+        "is_propulsion": false
+      },
+      {
+        "code": "1425",
+        "name": "Guided Missile Systems, Complete",
+        "amount": 453336758.07,
+        "share": 10.46,
+        "is_propulsion": false
+      },
+      {
+        "code": "AC25",
+        "name": "National Defense R&D Svcs; Atomic Energy Defense Activities; R&D Facilities & Maj Equip",
+        "amount": 37293738.21,
+        "share": 0.86,
+        "is_propulsion": false
+      },
+      {
+        "code": "AC26",
+        "name": "R&D- Defense System: Missile/Space Systems (Management/Support)",
+        "amount": 37098089.22,
+        "share": 0.86,
+        "is_propulsion": false
+      },
+      {
+        "code": "1420",
+        "name": "Guided Missile Components",
+        "amount": 16435470.59,
+        "share": 0.38,
+        "is_propulsion": false
+      },
+      {
+        "code": "R425",
+        "name": "Support- Professional: Engineering/Technical",
+        "amount": 15087457.95,
+        "share": 0.35,
+        "is_propulsion": false
+      },
+      {
+        "code": "2010",
+        "name": "Ship And Boat Propulsion Components",
+        "amount": 15073720.78,
+        "share": 0.35,
+        "is_propulsion": false
+      },
+      {
+        "code": "5342",
+        "name": "Hardware, Weapon System",
+        "amount": 14175878.54,
+        "share": 0.33,
+        "is_propulsion": false
+      },
+      {
+        "code": "1340",
+        "name": "Rockets, Rocket Ammunition And Rocket Components",
+        "amount": 13145107.52,
+        "share": 0.3,
+        "is_propulsion": true
+      },
+      {
+        "code": "AC24",
+        "name": "National Defense R&D Services; Atomic Energy Defense Activities; R&D Administrative Expenses",
+        "amount": 9592209.0,
+        "share": 0.22,
+        "is_propulsion": false
+      },
+      {
+        "code": "1430",
+        "name": "Guided Missile Remote Control Systems",
+        "amount": 8129784.35,
+        "share": 0.19,
+        "is_propulsion": false
+      }
+    ],
+    "propulsion_codes": [
+      "1337",
+      "1340",
+      "1377",
+      "2845"
+    ],
+    "propulsion_total": 13939435.52,
+    "propulsion_share": 0.32,
+    "non_propulsion_share": 99.68,
+    "top3_share": 95.8
+  },
+  "program_dependency": {
+    "award_id": "W31P4Q23C0005",
+    "recipient": "Lockheed Martin Corporation",
+    "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+    "description": "AGMS PRODUCTION",
+    "program": "Air-to-Ground Missile Systems (AGMS) \u2014 JAGM and HELLFIRE production",
+    "psc": "1410",
+    "date_signed": "2023-03-30",
+    "total_contract_value": 2213842633.09,
+    "obligated_to_date": 2213842633.09,
+    "years": [
+      {
+        "fy": 2023,
+        "award": 963475817.49,
+        "lens": 1471718431.27,
+        "share_of_fy": 65.5
+      },
+      {
+        "fy": 2024,
+        "award": 528697410.22,
+        "lens": 883480934.61,
+        "share_of_fy": 59.8
+      },
+      {
+        "fy": 2025,
+        "award": 721669405.38,
+        "lens": 1116534559.29,
+        "share_of_fy": 64.6
+      }
+    ],
+    "share_of_window": 51.1,
+    "peak_fy_share": 65.5,
+    "surge_multiple_ex_award": 7.3,
+    "recent_avg_ex_award": 419297097.36
+  },
+  "concentration_ex_top_award": {
+    "removed_award": "W31P4Q23C0005",
+    "removed_amount": 2213842633.09,
+    "attributed_to": "Lockheed Martin",
+    "total": 2111399449.06,
+    "top1_share": 54.9,
+    "top1_group": "Lockheed Martin",
+    "top3_share": 83.0,
+    "hhi": 3462,
+    "still_highly_concentrated": true,
+    "groups": [
+      {
+        "group": "Lockheed Martin",
+        "amount": 1158859996.95,
+        "share": 54.89
+      },
+      {
+        "group": "RTX",
+        "amount": 382543737.4,
+        "share": 18.12
+      },
+      {
+        "group": "Kongsberg",
+        "amount": 209846578.0,
+        "share": 9.94
+      },
+      {
+        "group": "L3Harris",
+        "amount": 60655595.1,
+        "share": 2.87
+      },
+      {
+        "group": "Lektron Inc",
+        "amount": 38425671.3,
+        "share": 1.82
+      },
+      {
+        "group": "SGL Carbon SE",
+        "amount": 37098089.22,
+        "share": 1.76
+      },
+      {
+        "group": "Northrop Grumman",
+        "amount": 33804137.66,
+        "share": 1.6
+      },
+      {
+        "group": "Kratos",
+        "amount": 24419842.16,
+        "share": 1.16
+      }
+    ]
+  },
+  "acquisition_timing": {
+    "pre": {
+      "total": 524481552.17,
+      "entities": 14,
+      "top_entity": "Aerojet Rocketdyne Coleman Aerospace Inc",
+      "top_amount": 452460951.91,
+      "top_share": 86.3
+    },
+    "post": {
+      "total": 283273227.78,
+      "entities": 7,
+      "top_entity": "Aerojet Rocketdyne Coleman Aerospace Inc",
+      "top_amount": 278240090.95,
+      "top_share": 98.2
+    },
+    "boundary": "2023-07-28",
+    "boundary_note": "L3Harris completed its acquisition of Aerojet Rocketdyne on 28 July 2023.",
+    "concentration_predates_acquisition": true
+  },
+  "subawards": {
+    "dod_336415": {
+      "rows_returned": 100,
+      "rows_after_dedupe": 54,
+      "duplicates_removed": 46,
+      "visible_total": 836186753.75,
+      "complete": false,
+      "top": [
+        {
+          "subawardee": "Major Tool & Machine Inc",
+          "amount": 252394685.2,
+          "subawards": 5,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "DRS Training & Control Systems, LLC",
+          "amount": 88413570.27,
+          "subawards": 3,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Northrop Grumman Systems Corp",
+          "amount": 85978602.54,
+          "subawards": 3,
+          "primes": [
+            "Lockheed Martin Corp"
+          ]
+        },
+        {
+          "subawardee": "General Dynamics-OTS, Inc.",
+          "amount": 67191588.31,
+          "subawards": 2,
+          "primes": [
+            "Lockheed Martin Corp"
+          ]
+        },
+        {
+          "subawardee": "Superior Motion Controls, Inc.",
+          "amount": 48337591.34,
+          "subawards": 4,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Moog Inc",
+          "amount": 47828646.89,
+          "subawards": 3,
+          "primes": [
+            "Lockheed Martin Corp"
+          ]
+        },
+        {
+          "subawardee": "Merrill Technologies Group, LLC",
+          "amount": 38822098.84,
+          "subawards": 5,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Veterans Trading Company, Inc.",
+          "amount": 23680150.81,
+          "subawards": 1,
+          "primes": [
+            "Lockheed Martin Corp"
+          ]
+        },
+        {
+          "subawardee": "Sioux Manufacturing Corporation",
+          "amount": 19214429.12,
+          "subawards": 1,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Honeywell International Inc.",
+          "amount": 18326675.0,
+          "subawards": 2,
+          "primes": [
+            "Lockheed Martin Corp"
+          ]
+        },
+        {
+          "subawardee": "Marvin Engineering Co, Inc",
+          "amount": 16228365.09,
+          "subawards": 2,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Gmt LLC",
+          "amount": 14058835.02,
+          "subawards": 3,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        }
+      ]
+    },
+    "psc1337": {
+      "rows_returned": 100,
+      "rows_after_dedupe": 79,
+      "duplicates_removed": 21,
+      "visible_total": 159794806.24,
+      "complete": false,
+      "top": [
+        {
+          "subawardee": "Aerojet Rocketdyne Inc",
+          "amount": 66273739.21,
+          "subawards": 1,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Moog Inc",
+          "amount": 8897928.02,
+          "subawards": 3,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc.",
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Northrop Grumman Systems Corporation",
+          "amount": 8582211.01,
+          "subawards": 2,
+          "primes": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Ensign-Bickford Aerospace & Defense Company",
+          "amount": 7378230.03,
+          "subawards": 4,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "Honeywell International Inc.",
+          "amount": 7080924.08,
+          "subawards": 2,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "Space Information Laboratories, LLC",
+          "amount": 6211841.0,
+          "subawards": 2,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "L3 Technologies, Inc.",
+          "amount": 5828613.0,
+          "subawards": 2,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "Marotta Controls Inc",
+          "amount": 5727529.0,
+          "subawards": 1,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "Emf Inc",
+          "amount": 5198529.0,
+          "subawards": 5,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "Haigh-Farr Inc",
+          "amount": 4828566.51,
+          "subawards": 3,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc.",
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "subawardee": "Airborne Systems North America Of Ca Inc",
+          "amount": 4402415.12,
+          "subawards": 4,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc."
+          ]
+        },
+        {
+          "subawardee": "Pacific Scientific Energetic Materials Company (California LLC)",
+          "amount": 2543069.0,
+          "subawards": 2,
+          "primes": [
+            "Aerojet Rocketdyne Coleman Aerospace, Inc.",
+            "Northrop Grumman Systems Corporation"
+          ]
+        }
+      ]
+    }
+  },
+  "awards": {
+    "fy20_25": [
+      {
+        "award_id": "W31P4Q23C0005",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 2213842633.09,
+        "start": "2023-03-30",
+        "end": "2029-06-30",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "AGMS PRODUCTION"
+      },
+      {
+        "award_id": "W31P4Q11C0242",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 1742438693.44,
+        "start": "2011-07-28",
+        "end": "2019-08-30",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "HELLFIRE II BUY 15 FY 11 MISSILE PRODUCTION REQUIREMENTS FOR ARMY, AIR FORCE AND NAVY"
+      },
+      {
+        "award_id": "N0002420C5310",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 550055006.28,
+        "start": "2020-02-13",
+        "end": "2026-07-31",
+        "state": "MD",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C",
+        "description": "MK 41 MOD 36 VLS MODULE MECH"
+      },
+      {
+        "award_id": "W31P4Q14C0052",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 457152951.12,
+        "start": "2014-02-28",
+        "end": "2018-04-30",
+        "state": "MA",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "cce9df51-3950-87f4-0b34-4353d5a08f32-C",
+        "description": "LETTER CONTRACT FOR 2 KUWAIT PATRIOT FIRE UNITS"
+      },
+      {
+        "award_id": "N0002423C5325",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 441756474.53,
+        "start": "2023-05-23",
+        "end": "2031-09-30",
+        "state": "NJ",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C",
+        "description": "MK 8 MOD 5 STANDARD MODULE"
+      },
+      {
+        "award_id": "W31P4Q08C0021",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 435036647.69,
+        "start": "2007-12-27",
+        "end": "2022-10-31",
+        "state": "TX",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C",
+        "description": "FRP 3 CONTRACT FOR DPICM AND UNITARY ROCKET."
+      },
+      {
+        "award_id": "W31P4Q14C0066",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 296937470.51,
+        "start": "2013-12-20",
+        "end": "2020-05-31",
+        "state": "TX",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C",
+        "description": "FRP 9 UCA REQUIREMENT"
+      },
+      {
+        "award_id": "W31P4Q07C0154",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 238005848.4,
+        "start": "2007-09-20",
+        "end": "2018-01-31",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "M299 LONGBOW/HELLFIRE LAUNCHERS. LAUNCHER COMPONENTS, ENGINEERING SERVICES, MODIFICATION WORK ORDER SUPPORT, AND DEPOT LEVEL MAINTENANCE. CONTAINS BASIC AND OPTION QUANTITIES."
+      },
+      {
+        "award_id": "N0002423C5432",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 218267278.0,
+        "start": "2022-12-22",
+        "end": "2028-09-30",
+        "state": "AZ",
+        "naics": "336415",
+        "psc": "1425",
+        "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+        "description": "ENCANISTERED MISSILE"
+      },
+      {
+        "award_id": "FA868124CB005",
+        "recipient": "Kongsberg Defence & Aerospace AS",
+        "total_contract_value": 209846578.0,
+        "start": "2024-05-31",
+        "end": "2027-09-30",
+        "state": null,
+        "naics": "336415",
+        "psc": "1425",
+        "recipient_id": "2f22cbe0-84d3-21d8-f5eb-bc0207105ebb-C",
+        "description": "JOINT STRIKE MISSILE (JSM) PRODUCTION LOT 1"
+      },
+      {
+        "award_id": "M6785425C0111",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 208649251.0,
+        "start": "2025-05-09",
+        "end": "2030-05-29",
+        "state": "AZ",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+        "description": "UCA - LONG LEAD ITEMS (NTE)"
+      },
+      {
+        "award_id": "W31P4Q21C0039",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 92688054.72,
+        "start": "2021-09-27",
+        "end": "2027-09-30",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "THIS REQUIREMENT IS FOR HELLFIRE M299 LEGACY LAUNCHERS, OBSOLETE COMPONENT PARTS, ANCILLARY EQUIPMENT, AND ENGINEERING SERVICES."
+      },
+      {
+        "award_id": "SPRRA225F0211",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 80393911.65,
+        "start": "2025-09-29",
+        "end": "2029-09-30",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "DO FOR M299 LAUNCHERS"
+      },
+      {
+        "award_id": "W31P4Q20F0068",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 53620029.54,
+        "start": "2020-01-30",
+        "end": "2025-06-30",
+        "state": "AR",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "description": "STINGER FLIGHT MOTORS INCREASE"
+      },
+      {
+        "award_id": "FA821320C0004",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 48170390.0,
+        "start": "2019-12-19",
+        "end": "2025-05-30",
+        "state": "AZ",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+        "description": "PROCURE 95 EACH REPLENISMENT SPARES IN SUPPORT OF THE FMS MAVERICK PROGRAM"
+      },
+      {
+        "award_id": "N6339416C0007",
+        "recipient": "Kratos Space & Missile Defense Systems, Inc.",
+        "total_contract_value": 48060499.67,
+        "start": "2015-12-22",
+        "end": "2023-04-29",
+        "state": "CA",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "eedb60f4-1ba1-61d6-5ed7-15f2db4e3a06-C",
+        "description": "ORIOLE MOTORS AND HARDWARE"
+      },
+      {
+        "award_id": "0001",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 47603118.08,
+        "start": "2018-06-29",
+        "end": "2023-09-30",
+        "state": "AR",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "description": "PROCUREMENT OF STINGER FLIGHT MOTORS IN SUPPORT OF THE SERVICE LIFE EXTENSION PROGRAM"
+      },
+      {
+        "award_id": "FA881813C0021",
+        "recipient": "Atk Launch Systems LLC",
+        "total_contract_value": 37051452.62,
+        "start": "2013-03-11",
+        "end": "2019-01-25",
+        "state": "UT",
+        "naics": "336415",
+        "psc": "AC25",
+        "recipient_id": "1a27c4e3-c0a0-5d50-3277-128bfbd90200-C",
+        "description": "IGF::CL,CT::IGF MINUTEMAN (MM)&PEACEKEEPER (PK) AGING SURVEILLANCE (AS)&MOTOR DISPOSAL FOLLOW-ON CONTRACT"
+      },
+      {
+        "award_id": "N0017820C2400",
+        "recipient": "SGL Composites Inc.",
+        "total_contract_value": 36602029.31,
+        "start": "2019-12-09",
+        "end": "2026-05-21",
+        "state": "CA",
+        "naics": "336415",
+        "psc": "AC26",
+        "recipient_id": "8cd1a28f-f626-7d88-591e-4c49aa9806b1-C",
+        "description": "HYDROCLAVE REFURBISHMENT"
+      },
+      {
+        "award_id": "W31P4Q14C0090",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 36401836.56,
+        "start": "2014-09-26",
+        "end": "2019-07-26",
+        "state": "AR",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "description": "STINGER FLIGHT MOTOR PRODUCTION CONTRACT"
+      },
+      {
+        "award_id": "HQ014711C0100",
+        "recipient": "Atk Launch Systems LLC",
+        "total_contract_value": 30315733.82,
+        "start": "2011-09-30",
+        "end": "2017-03-28",
+        "state": "UT",
+        "naics": "336415",
+        "psc": "R425",
+        "recipient_id": "1d31c76b-458a-fdc1-0bd4-afb6735e457b-C",
+        "description": "ROCKET MOTOR TECH SERVICES TC"
+      },
+      {
+        "award_id": "W31P4Q08C0359",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 27429253.0,
+        "start": "2008-07-31",
+        "end": "2016-03-31",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "M299 LAUNCHER MODERNIZATION PROGRAM."
+      },
+      {
+        "award_id": "FA881813C0026",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 24707295.24,
+        "start": "2013-02-06",
+        "end": "2021-06-01",
+        "state": "CA",
+        "naics": "336415",
+        "psc": "1420",
+        "recipient_id": "0761e9d0-a50b-9ac0-0edf-bd9655eddb68-C",
+        "description": "FLEXSEAL FOLLOW-ON CONTRACT"
+      },
+      {
+        "award_id": "M6785424C0004",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 24244936.11,
+        "start": "2024-08-29",
+        "end": "2026-05-31",
+        "state": null,
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+        "description": "THIS CONTRACT IS FOR 80 MRIC MISSILES, LOADING AND LIFTING EQUIPMENT, LEAK TESTERS, SPARES, AND LEAK TESTER TRAINING."
+      },
+      {
+        "award_id": "FA821314C0018",
+        "recipient": "Alliant Techsystems Operations LLC",
+        "total_contract_value": 21718234.0,
+        "start": "2014-06-13",
+        "end": "2020-06-30",
+        "state": "WV",
+        "naics": "336415",
+        "psc": "1340",
+        "recipient_id": "7482bb04-ce4b-c9fb-7630-9d0d71964019-C",
+        "description": "SUPPLY CONTRACT FOR ROCKET ASSISTED TAKE-OFF (RATO) ROCKET MOTOR AND INITIATOR."
+      }
+    ],
+    "fy23": [
+      {
+        "award_id": "W31P4Q23C0005",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 2213842633.09,
+        "start": "2023-03-30",
+        "end": "2029-06-30",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "AGMS PRODUCTION"
+      },
+      {
+        "award_id": "N0002420C5310",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 550055006.28,
+        "start": "2020-02-13",
+        "end": "2026-07-31",
+        "state": "MD",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C",
+        "description": "MK 41 MOD 36 VLS MODULE MECH"
+      },
+      {
+        "award_id": "W31P4Q14C0052",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 457152951.12,
+        "start": "2014-02-28",
+        "end": "2018-04-30",
+        "state": "MA",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "cce9df51-3950-87f4-0b34-4353d5a08f32-C",
+        "description": "LETTER CONTRACT FOR 2 KUWAIT PATRIOT FIRE UNITS"
+      },
+      {
+        "award_id": "N0002423C5325",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 441756474.53,
+        "start": "2023-05-23",
+        "end": "2031-09-30",
+        "state": "NJ",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C",
+        "description": "MK 8 MOD 5 STANDARD MODULE"
+      },
+      {
+        "award_id": "W31P4Q07C0154",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 238005848.4,
+        "start": "2007-09-20",
+        "end": "2018-01-31",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "M299 LONGBOW/HELLFIRE LAUNCHERS. LAUNCHER COMPONENTS, ENGINEERING SERVICES, MODIFICATION WORK ORDER SUPPORT, AND DEPOT LEVEL MAINTENANCE. CONTAINS BASIC AND OPTION QUANTITIES."
+      },
+      {
+        "award_id": "N0002423C5432",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 218267278.0,
+        "start": "2022-12-22",
+        "end": "2028-09-30",
+        "state": "AZ",
+        "naics": "336415",
+        "psc": "1425",
+        "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+        "description": "ENCANISTERED MISSILE"
+      },
+      {
+        "award_id": "W31P4Q21C0039",
+        "recipient": "Lockheed Martin Corporation",
+        "total_contract_value": 92688054.72,
+        "start": "2021-09-27",
+        "end": "2027-09-30",
+        "state": "FL",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+        "description": "THIS REQUIREMENT IS FOR HELLFIRE M299 LEGACY LAUNCHERS, OBSOLETE COMPONENT PARTS, ANCILLARY EQUIPMENT, AND ENGINEERING SERVICES."
+      },
+      {
+        "award_id": "W31P4Q20F0068",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 53620029.54,
+        "start": "2020-01-30",
+        "end": "2025-06-30",
+        "state": "AR",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "description": "STINGER FLIGHT MOTORS INCREASE"
+      },
+      {
+        "award_id": "FA821320C0004",
+        "recipient": "Raytheon Company",
+        "total_contract_value": 48170390.0,
+        "start": "2019-12-19",
+        "end": "2025-05-30",
+        "state": "AZ",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+        "description": "PROCURE 95 EACH REPLENISMENT SPARES IN SUPPORT OF THE FMS MAVERICK PROGRAM"
+      },
+      {
+        "award_id": "N6339416C0007",
+        "recipient": "Kratos Space & Missile Defense Systems, Inc.",
+        "total_contract_value": 48060499.67,
+        "start": "2015-12-22",
+        "end": "2023-04-29",
+        "state": "CA",
+        "naics": "336415",
+        "psc": "1440",
+        "recipient_id": "eedb60f4-1ba1-61d6-5ed7-15f2db4e3a06-C",
+        "description": "ORIOLE MOTORS AND HARDWARE"
+      },
+      {
+        "award_id": "0001",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 47603118.08,
+        "start": "2018-06-29",
+        "end": "2023-09-30",
+        "state": "AR",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "description": "PROCUREMENT OF STINGER FLIGHT MOTORS IN SUPPORT OF THE SERVICE LIFE EXTENSION PROGRAM"
+      },
+      {
+        "award_id": "N0017820C2400",
+        "recipient": "SGL Composites Inc.",
+        "total_contract_value": 36602029.31,
+        "start": "2019-12-09",
+        "end": "2026-05-21",
+        "state": "CA",
+        "naics": "336415",
+        "psc": "AC26",
+        "recipient_id": "8cd1a28f-f626-7d88-591e-4c49aa9806b1-C",
+        "description": "HYDROCLAVE REFURBISHMENT"
+      },
+      {
+        "award_id": "W31P4Q14C0090",
+        "recipient": "Aerojet Rocketdyne Inc",
+        "total_contract_value": 36401836.56,
+        "start": "2014-09-26",
+        "end": "2019-07-26",
+        "state": "AR",
+        "naics": "336415",
+        "psc": "1410",
+        "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+        "description": "STINGER FLIGHT MOTOR PRODUCTION CONTRACT"
+      },
+      {
+        "award_id": "W31P4Q22F0104",
+        "recipient": "Lektron Inc",
+        "total_contract_value": 20019363.6,
+        "start": "2022-04-20",
+        "end": "2025-03-31",
+        "state": "AL",
+        "naics": "336415",
+        "psc": "1420",
+        "recipient_id": "b2f39f15-a84e-2984-4612-02bfd31471a3-C",
+        "description": "THE PURPOSE OF DELIVERY ORDER, W31P4Q-22-D-0011/W31P4Q-22-F-0104 IS TO PROCURE COOLER LIQUID ELECTRON TUBE (CLET) MODIFICATION KITS (MKS), PART NUMBER 13739981-1 IN SUPPORT OF UNITED STATES (US) AND FOREIGN MILITARY SALE"
+      },
+      {
+        "award_id": "W31P4Q22F0104",
+        "recipient": "Lektron Inc",
+        "total_contract_value": 20019363.6,
+        "start": "2022-04-20",
+        "end": "2025-03-31",
+        "state": "MA",
+        "naics": "336415",
+        "psc": "1425",
+        "recipient_id": "b2f39f15-a84e-2984-4612-02bfd31471a3-C",
+        "description": "THE PURPOSE OF DELIVERY ORDER, W31P4Q-22-D-0011/W31P4Q-22-F-0104 IS TO PROCURE COOLER LIQUID ELECTRON TUBE (CLET) MODIFICATION KITS(MKS), PART NUMBER 13739981-1 IN SUPPORT OF UNITED STATES (US) AND FOREIGN MILITARY SALES"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "award_amount_is_not_period_obligation",
+      "fy23_transaction_total": 1471718431.27,
+      "fy23_award_search_sum": 4522264876.5,
+      "passed": true,
+      "detail": "Award-search totals include full value of contracts signed in earlier years; they must never be used as period dollars."
+    },
+    {
+      "name": "recipient_rows_reconcile_to_series",
+      "series_fy20_25_total": 4335207860.74,
+      "recipient_rows_total": 4325242082.15,
+      "pct_diff": 0.23,
+      "passed": true,
+      "detail": "Top-100 recipients should account for ~all obligations in window; a large gap means the long tail is being dropped from the denominator."
+    },
+    {
+      "name": "parent_rollup_changed_the_answer",
+      "unrolled_top1": 55.0,
+      "rolled_top1": 78.0,
+      "passed": true,
+      "detail": "Rolling child entities to owner groups must raise the leader's share; if it does not, parent resolution silently failed."
+    },
+    {
+      "name": "no_duplicate_owner_groups",
+      "groups": 94,
+      "passed": true,
+      "detail": "Each owner group appears exactly once in the concentration chart."
+    },
+    {
+      "name": "primary_lens_is_not_propulsion",
+      "propulsion_share_of_lens": 0.32,
+      "top_code": "1410 Guided Missiles",
+      "passed": true,
+      "detail": "Guards the framing: propulsion product codes are a rounding error inside NAICS 336415, so its dollars must never be described as propulsion spending. If this share ever rises above 5%, the wording on the site and in the analysis has to be revisited."
+    },
+    {
+      "name": "single_award_obligations_fit_inside_the_year",
+      "award_fy_peak": 963475817.49,
+      "share_of_peak_fy": 65.5,
+      "passed": true,
+      "detail": "A single award's per-year obligations must never exceed the category total for that year. If they do, award-level and category-level figures are being mixed."
+    },
+    {
+      "name": "concentration_survives_removing_the_largest_award",
+      "top1_with": 78.0,
+      "top1_without": 54.9,
+      "hhi_without": 3462,
+      "passed": true,
+      "detail": "The concentration finding must not rest on a single contract. If removing the largest award drops HHI below the highly-concentrated threshold, the headline claim needs rewriting, not just a footnote."
+    },
+    {
+      "name": "motor_concentration_predates_the_acquisition",
+      "pre_top_share": 86.3,
+      "post_top_share": 98.2,
+      "passed": true,
+      "detail": "Guards the ownership rollup against the charge that a 2023 merger retroactively manufactured the single-source finding. If the pre-acquisition leader ever falls below 50%, the claim has to be restated as a post-merger effect."
+    },
+    {
+      "name": "negative_obligations_are_floored_not_netted",
+      "negative_recipients_primary": 0,
+      "negative_recipients_motor_code": 3,
+      "passed": true,
+      "detail": "Deobligations can push a recipient net-negative over a window. Shares use the positive-obligation denominator so that no share exceeds 100% and HHI stays well defined."
+    },
+    {
+      "name": "subawards_deduped",
+      "removed": 46,
+      "passed": true,
+      "detail": "Raw subaward responses repeat rows across contract modifications."
+    }
+  ]
+}

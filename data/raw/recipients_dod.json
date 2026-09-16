@@ -1,0 +1,818 @@
+{
+  "category": "recipient",
+  "spending_level": "transactions",
+  "limit": 100,
+  "page_metadata": {
+    "page": 1,
+    "next": 2,
+    "previous": null,
+    "hasNext": true,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "amount": 2378467911.11,
+      "recipient_id": "695d5739-ecc3-8484-ba2b-f9c8b4652a4a-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "196189385",
+      "uei": "H7PNSVNN5827",
+      "total_outlays": null
+    },
+    {
+      "amount": 550055006.28,
+      "recipient_id": "49ba01f3-56b6-92fd-1814-1a521f21fe7e-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "003419090",
+      "uei": "MJENSFHZJP11",
+      "total_outlays": null
+    },
+    {
+      "amount": 443025222.63,
+      "recipient_id": "d7df489c-5a15-3e1b-e7fa-0e93eb94a166-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "848028494",
+      "uei": "CWM4UN76ZQW8",
+      "total_outlays": null
+    },
+    {
+      "amount": 376094858.63,
+      "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+      "name": "RAYTHEON COMPANY",
+      "code": "794598573",
+      "uei": "VTEWM5QSE598",
+      "total_outlays": null
+    },
+    {
+      "amount": 209846578.0,
+      "recipient_id": "2f22cbe0-84d3-21d8-f5eb-bc0207105ebb-C",
+      "name": "KONGSBERG DEFENCE & AEROSPACE AS",
+      "code": "730361318",
+      "uei": "V24HYE4YVGH6",
+      "total_outlays": null
+    },
+    {
+      "amount": 53290444.1,
+      "recipient_id": "6fe628f5-6456-c7a3-5f39-d4c2db6e2c39-C",
+      "name": "AEROJET ROCKETDYNE INC",
+      "code": "621563266",
+      "uei": "MBSKB4QN71M1",
+      "total_outlays": null
+    },
+    {
+      "amount": 38425671.3,
+      "recipient_id": "b2f39f15-a84e-2984-4612-02bfd31471a3-C",
+      "name": "LEKTRON INC",
+      "code": "780553129",
+      "uei": "EHL8TVJF4KX5",
+      "total_outlays": null
+    },
+    {
+      "amount": 37098089.22,
+      "recipient_id": "8cd1a28f-f626-7d88-591e-4c49aa9806b1-C",
+      "name": "SGL COMPOSITES INC.",
+      "code": "008287518",
+      "uei": "JCSJKLX48RL7",
+      "total_outlays": null
+    },
+    {
+      "amount": 33804137.66,
+      "recipient_id": "1a27c4e3-c0a0-5d50-3277-128bfbd90200-C",
+      "name": "ATK LAUNCH SYSTEMS LLC",
+      "code": "002241164",
+      "uei": "GRJJTMCRKJD1",
+      "total_outlays": null
+    },
+    {
+      "amount": 24419842.16,
+      "recipient_id": "eedb60f4-1ba1-61d6-5ed7-15f2db4e3a06-C",
+      "name": "KRATOS SPACE & MISSILE DEFENSE SYSTEMS, INC.",
+      "code": "079714615",
+      "uei": "M7X3M2FNEPM7",
+      "total_outlays": null
+    },
+    {
+      "amount": 22292871.75,
+      "recipient_id": "a8363b1e-71d8-c52a-9155-45b5409ca61a-C",
+      "name": "SAS MANUFACTURING LLC",
+      "code": "007095219",
+      "uei": "WB8MY7JJMCC5",
+      "total_outlays": null
+    },
+    {
+      "amount": 18079591.97,
+      "recipient_id": "3929d5e1-dbbe-ae03-2849-670f6215fdea-C",
+      "name": "ON-POINT DEFENSE TECHNOLOGIES LLC",
+      "code": "078525194",
+      "uei": "F7BAALT9GUD5",
+      "total_outlays": null
+    },
+    {
+      "amount": 15511238.59,
+      "recipient_id": "83d28e4e-178a-9f16-9a62-306da1ad99c1-C",
+      "name": "THE BOEING COMPANY",
+      "code": "556941201",
+      "uei": "H1C4ZVECADM6",
+      "total_outlays": null
+    },
+    {
+      "amount": 12993357.0,
+      "recipient_id": "feff6bf5-0c8a-4590-0796-eec837a63efa-C",
+      "name": "CANADIAN COMMERCIAL CORPORATION",
+      "code": "207884594",
+      "uei": "FA38CTVQM319",
+      "total_outlays": null
+    },
+    {
+      "amount": 11638589.46,
+      "recipient_id": "3add2e0e-8eef-6e4e-894f-9bc4b5fb64db-C",
+      "name": "MARVIN ENGINEERING CO, INC",
+      "code": "009566167",
+      "uei": "Y35DDM4VP2Q7",
+      "total_outlays": null
+    },
+    {
+      "amount": 9304377.0,
+      "recipient_id": "ada090b1-23c9-76f8-3dfc-602a0a7e3d1c-C",
+      "name": "MOOG INC",
+      "code": "002103166",
+      "uei": "L4ZMKLM4MPL3",
+      "total_outlays": null
+    },
+    {
+      "amount": 7365151.0,
+      "recipient_id": "dcc79470-09a7-95dd-2480-cabd01a3eab7-C",
+      "name": "AEROJET ROCKETDYNE, INC.",
+      "code": "039785188",
+      "uei": "XSEFW2JFVLW4",
+      "total_outlays": null
+    },
+    {
+      "amount": 6499839.19,
+      "recipient_id": "842b45f2-14cf-ddb9-8b94-792d3e964d47-C",
+      "name": "IBC MATERIALS AND TECHNOLOGIES, LLC",
+      "code": "174716618",
+      "uei": "HJEUXA7CARK9",
+      "total_outlays": null
+    },
+    {
+      "amount": 6286272.78,
+      "recipient_id": "c03578a9-f5bf-c3e3-6055-d77a29e47a8f-C",
+      "name": "AERONAUTICAL SYSTEMS, INCORPORATED",
+      "code": "195038898",
+      "uei": "UA6DWTL69W97",
+      "total_outlays": null
+    },
+    {
+      "amount": 4718222.0,
+      "recipient_id": "26d3761d-7738-a884-5c47-d807135754c8-C",
+      "name": "BUSEK CO., INC.",
+      "code": "184629491",
+      "uei": "SATYSBWG3FL7",
+      "total_outlays": null
+    },
+    {
+      "amount": 4613875.0,
+      "recipient_id": "71b75d09-608b-9864-ac37-2e53fe1a718d-C",
+      "name": "HONEYWELL INTERNATIONAL INC.",
+      "code": "054332192",
+      "uei": "UNNNFCAEMRG3",
+      "total_outlays": null
+    },
+    {
+      "amount": 4438878.77,
+      "recipient_id": "c7207b2b-80c4-7b9b-2c0a-265e93256685-C",
+      "name": "RAYTHEON COMPANY",
+      "code": "009752957",
+      "uei": "K1H5GGQPBLV5",
+      "total_outlays": null
+    },
+    {
+      "amount": 3496821.55,
+      "recipient_id": "57585825-1468-52d2-b90a-5bdcb6abcdc4-C",
+      "name": "INTERMAT",
+      "code": "834951147",
+      "uei": "PTFYTET7U6W9",
+      "total_outlays": null
+    },
+    {
+      "amount": 3305568.0,
+      "recipient_id": "54a73246-770b-7560-18a8-ac768e375569-C",
+      "name": "SCIOTEQ LLC",
+      "code": "623960486",
+      "uei": "UVFUAL43AP15",
+      "total_outlays": null
+    },
+    {
+      "amount": 3185517.22,
+      "recipient_id": "45ea74d0-f4a1-9193-1749-f026ca642d8e-C",
+      "name": "ALLIANT TECHSYSTEMS OPERATIONS LLC",
+      "code": "780680976",
+      "uei": "TM7JBC68DDF3",
+      "total_outlays": null
+    },
+    {
+      "amount": 2966120.16,
+      "recipient_id": "7773e01e-756f-6bc6-633e-98b3cc0245e8-C",
+      "name": "DUTCH VALLEY SUPPLY CO.",
+      "code": "003498029",
+      "uei": "M1LMX52SVZK9",
+      "total_outlays": null
+    },
+    {
+      "amount": 2582558.02,
+      "recipient_id": "702faa3e-13a2-e45a-0e82-2031c2645966-C",
+      "name": "LCF SYSTEMS, INC.",
+      "code": "122144710",
+      "uei": "Q1MJGSLWE7N6",
+      "total_outlays": null
+    },
+    {
+      "amount": 2215457.39,
+      "recipient_id": "bf9cd280-b7a0-642a-5795-f5156204f71a-C",
+      "name": "ASRC FEDERAL FACILITIES LOGISTICS, LLC",
+      "code": "148983229",
+      "uei": "MA1VZ6667CB1",
+      "total_outlays": null
+    },
+    {
+      "amount": 2010000.0,
+      "recipient_id": "cce9df51-3950-87f4-0b34-4353d5a08f32-C",
+      "name": "RAYTHEON COMPANY",
+      "code": "196882310",
+      "uei": "XSV6AZJ6SDJ7",
+      "total_outlays": null
+    },
+    {
+      "amount": 1844887.48,
+      "recipient_id": "a84f4889-6c2f-c329-c189-4d5f2833fcbc-C",
+      "name": "ARLINGTON PRECISION COMPONENTS, LLC",
+      "code": "789065526",
+      "uei": "W2PZXJKG4UG9",
+      "total_outlays": null
+    },
+    {
+      "amount": 1696935.02,
+      "recipient_id": "16183054-6cf8-5cc6-7d8d-ef5ce278c49f-C",
+      "name": "PIONEER INDUSTRIES, LLC",
+      "code": "043175926",
+      "uei": "TGGMDYLJGVN8",
+      "total_outlays": null
+    },
+    {
+      "amount": 1415000.0,
+      "recipient_id": "f5f84b60-247a-99fa-4e26-7a3f06f92ac6-C",
+      "name": "MCKENNA BRYTAN INDUSTRIES LLC",
+      "code": "079160803",
+      "uei": "C5VVNA8P5HQ3",
+      "total_outlays": null
+    },
+    {
+      "amount": 1364053.0,
+      "recipient_id": "24e472ea-0fee-a35b-3598-17845becfce1-C",
+      "name": "DURAMAX MARINE, LLC",
+      "code": "099845245",
+      "uei": "VD1NLZGAJ2L4",
+      "total_outlays": null
+    },
+    {
+      "amount": 1360654.0,
+      "recipient_id": "ea9e7416-85b2-4891-287a-3d2273612621-C",
+      "name": "DE TECHNOLOGIES INC",
+      "code": "877599274",
+      "uei": "F1BAZ9LWHKW6",
+      "total_outlays": null
+    },
+    {
+      "amount": 1336456.14,
+      "recipient_id": "0566fb12-7e70-6105-042d-53b792c17549-C",
+      "name": "MARCH ELECTRONICS, INC.",
+      "code": "065937021",
+      "uei": "CELUQLJ64TZ9",
+      "total_outlays": null
+    },
+    {
+      "amount": 1323481.24,
+      "recipient_id": "2624df3b-c480-deb3-8953-67b9ba45b4c7-C",
+      "name": "PHOENIX TRADING INC.",
+      "code": "787857551",
+      "uei": "FXVMXKJGC2K6",
+      "total_outlays": null
+    },
+    {
+      "amount": 1154490.02,
+      "recipient_id": "779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "794571448",
+      "uei": "XFJMYSYFJEK4",
+      "total_outlays": null
+    },
+    {
+      "amount": 1038737.69,
+      "recipient_id": "501b0fc7-1a33-dbd4-4ced-fdb2950917db-C",
+      "name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+      "code": "040901068",
+      "uei": "X9S9DMKTAPY9",
+      "total_outlays": null
+    },
+    {
+      "amount": 1035752.7,
+      "recipient_id": "3864d3c1-ec8c-db57-dd65-c094438d0e08-C",
+      "name": "S I T CORPORATION",
+      "code": "038361853",
+      "uei": "U4CGHHHKG2R5",
+      "total_outlays": null
+    },
+    {
+      "amount": 820370.05,
+      "recipient_id": "e0a61f12-3fdd-7edc-d2de-5e5c47df8f7d-C",
+      "name": "ASTRO MACHINE & TOOL WORKS, LLC",
+      "code": "035819958",
+      "uei": "G7AQPX7WB8W4",
+      "total_outlays": null
+    },
+    {
+      "amount": 813828.0,
+      "recipient_id": "fcdb5bed-3384-b90d-09ec-13439f38079e-C",
+      "name": "ENSIGN-BICKFORD AEROSPACE & DEFENSE COMPANY",
+      "code": "039119057",
+      "uei": "JU3GGVGN9ML8",
+      "total_outlays": null
+    },
+    {
+      "amount": 761850.0,
+      "recipient_id": "314feee0-23c2-a1ae-ff92-a0c02897a9c0-C",
+      "name": "THE HANDY TOOL & MFG. CO., INC",
+      "code": "001282722",
+      "uei": "PX34R6NN4T61",
+      "total_outlays": null
+    },
+    {
+      "amount": 754660.0,
+      "recipient_id": "0b37c343-8807-b92f-3c32-77aede26b98a-C",
+      "name": "ACE AND COMPANY, INC",
+      "code": "039998534",
+      "uei": "UEKBTGBTHRN1",
+      "total_outlays": null
+    },
+    {
+      "amount": 725910.86,
+      "recipient_id": "6dcfeaa0-2a51-ad80-dc35-0a8d39e32fe8-C",
+      "name": "TNL SALES LLC",
+      "code": "040200599",
+      "uei": "XKR3GNB5ZJL1",
+      "total_outlays": null
+    },
+    {
+      "amount": 699702.05,
+      "recipient_id": "f63f4983-ca10-7886-02d5-d2f59680c83a-C",
+      "name": "STATZ CORP",
+      "code": "145014242",
+      "uei": "CE68LE9NASB5",
+      "total_outlays": null
+    },
+    {
+      "amount": 688025.0,
+      "recipient_id": "afa26f5e-f978-1c2f-8d6d-ed5e21a2aaea-C",
+      "name": "LOBO VENTURES LTD",
+      "code": "941719007",
+      "uei": "NTPML8VE2K11",
+      "total_outlays": null
+    },
+    {
+      "amount": 685650.23,
+      "recipient_id": "84d59494-ad83-e2e2-f71b-67153f67b71f-C",
+      "name": "WILLIAMS INTERNATIONAL CO., L.L.C.",
+      "code": "006401970",
+      "uei": "UHYUBXQZQ2A4",
+      "total_outlays": null
+    },
+    {
+      "amount": 611943.89,
+      "recipient_id": "3ac10a3a-5a06-a22e-5f47-15462c14c410-C",
+      "name": "U.S.A. SPARES INC.",
+      "code": "127112147",
+      "uei": "S5ELJAQ4A7B5",
+      "total_outlays": null
+    },
+    {
+      "amount": 590671.62,
+      "recipient_id": "02ddc1ff-0281-fd21-a987-be1c3fadf2b3-C",
+      "name": "KNOBLEY TECHNICAL ASSOCIATES, LLC",
+      "code": "052376147",
+      "uei": "FBXSUUJNJF49",
+      "total_outlays": null
+    },
+    {
+      "amount": 587512.02,
+      "recipient_id": "0f0679a0-fff0-ada7-7e1c-93d793d88fb2-C",
+      "name": "A.G.H. INDUSTRIES, LLC",
+      "code": "056543879",
+      "uei": "D9CLBNUA22F3",
+      "total_outlays": null
+    },
+    {
+      "amount": 533350.3,
+      "recipient_id": "e9b19404-5976-8bdf-ed5c-cc76213e17ad-C",
+      "name": "HOOSIER INDUSTRIAL SUPPLY, INC",
+      "code": "783140346",
+      "uei": "E16PLDKCL3V1",
+      "total_outlays": null
+    },
+    {
+      "amount": 524827.82,
+      "recipient_id": "be116510-62f7-7f06-f23c-5485ce7e1d8c-C",
+      "name": "AVANS MACHINE, INC",
+      "code": "824835482",
+      "uei": "SYGFWKBNSYD4",
+      "total_outlays": null
+    },
+    {
+      "amount": 500810.0,
+      "recipient_id": "550b6597-da0d-0921-3b3a-31d758c4e517-C",
+      "name": "EDEL ENGINEERING DEVELOPMENT CO.",
+      "code": "809004088",
+      "uei": "X9K8A7MNWJJ6",
+      "total_outlays": null
+    },
+    {
+      "amount": 477776.46,
+      "recipient_id": "4b9980a0-37d8-8227-29f2-01411d7d9d49-C",
+      "name": "L'ANSE MANUFACTURING & TECHNOLOGY, INC.",
+      "code": "074776022",
+      "uei": "ETKLMQF1JM51",
+      "total_outlays": null
+    },
+    {
+      "amount": 475978.99,
+      "recipient_id": "5958e9b3-8e66-56c7-46e6-eabf9a2861b1-C",
+      "name": "AEREOS, LLC",
+      "code": "039937859",
+      "uei": "LM4KN8LUGTM4",
+      "total_outlays": null
+    },
+    {
+      "amount": 470552.0,
+      "recipient_id": "72e28856-8941-ced3-b002-c61c5a212c4a-C",
+      "name": "EATON AEROSPACE LLC",
+      "code": "555486646",
+      "uei": "EE24TREN1C63",
+      "total_outlays": null
+    },
+    {
+      "amount": 469210.0,
+      "recipient_id": "a058b18b-e172-6b5d-6d0c-eb97caf242bb-C",
+      "name": "XOMETRY, INC",
+      "code": "079173033",
+      "uei": "FHT2GPMG5YM8",
+      "total_outlays": null
+    },
+    {
+      "amount": 467268.87,
+      "recipient_id": "9a6c669e-e695-7865-3325-57e8c87590ee-C",
+      "name": "KAMPI COMPONENTS CO INC",
+      "code": "122679228",
+      "uei": "XX2WFHJEFB45",
+      "total_outlays": null
+    },
+    {
+      "amount": 413280.44,
+      "recipient_id": "2003dbbd-63e0-22b6-afe7-413591379a2b-C",
+      "name": "FITZHUGH CLIFTON",
+      "code": "619647415",
+      "uei": "LHWHD9AXN439",
+      "total_outlays": null
+    },
+    {
+      "amount": 400000.0,
+      "recipient_id": "1345ad0a-4a60-8782-0888-0ff1cdc77567-C",
+      "name": "MARVIN TEST SOLUTIONS, INC.",
+      "code": "623310927",
+      "uei": "GDSKW3NPLTL1",
+      "total_outlays": null
+    },
+    {
+      "amount": 386140.0,
+      "recipient_id": "36d120bb-d986-e0d5-689b-61244c0261b8-C",
+      "name": "DC PRECISION LLC",
+      "code": "078881630",
+      "uei": "ECHAPFHFJFY9",
+      "total_outlays": null
+    },
+    {
+      "amount": 380689.74,
+      "recipient_id": "69f0b2a1-18d5-5875-078e-480f4a74a429-C",
+      "name": "DELA TECHNOLOGY CORPORATION",
+      "code": "070111927",
+      "uei": "U9EMJNLJY354",
+      "total_outlays": null
+    },
+    {
+      "amount": 362349.03,
+      "recipient_id": "d9182235-6a63-94a4-9812-cfd570c37a30-C",
+      "name": "ECHELON SUPPLY AND SERVICE, INC.",
+      "code": "085172005",
+      "uei": "QF3MD1MU1651",
+      "total_outlays": null
+    },
+    {
+      "amount": 356351.88,
+      "recipient_id": "995f0215-8b53-41f5-0ccf-e1cce29ce928-C",
+      "name": "BURHANI ENTERPRISES INC",
+      "code": "066185141",
+      "uei": "QMCVMXTXA9S1",
+      "total_outlays": null
+    },
+    {
+      "amount": 353936.0,
+      "recipient_id": "6583d13b-eb86-70fd-3288-c630841d2ec1-C",
+      "name": "JGILS, LLC",
+      "code": "124602793",
+      "uei": "JNC1BUEVV3B9",
+      "total_outlays": null
+    },
+    {
+      "amount": 351962.51,
+      "recipient_id": "ea92cf78-2e44-51ea-cf00-7632f9b246f4-C",
+      "name": "BRIGHT LIGHTS USA, INC",
+      "code": "626596928",
+      "uei": "ME1NKSLXV5T7",
+      "total_outlays": null
+    },
+    {
+      "amount": 346721.4,
+      "recipient_id": "3c4726ba-1b4b-c5b2-ff4e-a4770283cb51-C",
+      "name": "CRAFT MACHINE WORKS, INC.",
+      "code": "074740895",
+      "uei": "CW48SQ7KJX68",
+      "total_outlays": null
+    },
+    {
+      "amount": 342826.02,
+      "recipient_id": "ca3e18a3-8d0d-28be-e7fe-3a22074694ce-C",
+      "name": "MIDDLE GEORGIA DIVERSIFIED INDUSTRIES, INC.",
+      "code": "118280150",
+      "uei": "MB3LB7NS1TN3",
+      "total_outlays": null
+    },
+    {
+      "amount": 338960.0,
+      "recipient_id": "d288137a-df06-a6a2-d760-b57726572a8b-C",
+      "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+      "code": "117474014",
+      "uei": "XQK3GTZJ6464",
+      "total_outlays": null
+    },
+    {
+      "amount": 331087.89,
+      "recipient_id": "3515d124-e8ee-240c-e673-2368c49d5cc7-C",
+      "name": "RIDGE INSTRUMENTS CO INC",
+      "code": "131159691",
+      "uei": "JENCMMS541X9",
+      "total_outlays": null
+    },
+    {
+      "amount": 319970.0,
+      "recipient_id": "b4a770a3-4646-5d45-4389-0312f5718303-C",
+      "name": "VACCO INDUSTRIES",
+      "code": "008263857",
+      "uei": "SX6BF52K2WB1",
+      "total_outlays": null
+    },
+    {
+      "amount": 308989.36,
+      "recipient_id": "87f82ce5-425c-9d7c-1331-e6c2e160f491-C",
+      "name": "R & M GOVERNMENT SERVICES INC",
+      "code": "968339148",
+      "uei": "M8BLN7XW5M86",
+      "total_outlays": null
+    },
+    {
+      "amount": 304664.5,
+      "recipient_id": "3bf8d894-8ea0-b9cf-0d59-54c8dc40a2d1-C",
+      "name": "BLUE CORD LOGISTIC STRATEGIES INC",
+      "code": "080250268",
+      "uei": "FPHKH7TML8K1",
+      "total_outlays": null
+    },
+    {
+      "amount": 297521.48,
+      "recipient_id": "9333a4a2-a7d3-5d1b-74e1-3830eeadf372-C",
+      "name": "RUOTANEN ASSOCIATES INC",
+      "code": "036454551",
+      "uei": "G3CBJJ135GD9",
+      "total_outlays": null
+    },
+    {
+      "amount": 288870.26,
+      "recipient_id": "d32be8b7-0a80-5dfa-b5d5-186164cb0697-C",
+      "name": "ADIRONDACK ELECTRONICS INC",
+      "code": "013184957",
+      "uei": "NRQBG34NBBN5",
+      "total_outlays": null
+    },
+    {
+      "amount": 287755.0,
+      "recipient_id": "3abbe8d6-b158-0277-2715-ea6e03c6b3a2-C",
+      "name": "AXION CORPORATION",
+      "code": "106916760",
+      "uei": "MJFSTZ443MM1",
+      "total_outlays": null
+    },
+    {
+      "amount": 282841.5,
+      "recipient_id": "ed4d6a06-15d7-5880-0c07-bf412889cf8e-C",
+      "name": "C U ENTERPRISES LTD",
+      "code": "942382417",
+      "uei": "JHW4SUA7JNA9",
+      "total_outlays": null
+    },
+    {
+      "amount": 281451.92,
+      "recipient_id": "0f711966-83f4-6a2c-517d-223fca8c50a6-C",
+      "name": "BASIC RUBBER AND PLASTICS CO.",
+      "code": "061888111",
+      "uei": "V8M7VR28LYL1",
+      "total_outlays": null
+    },
+    {
+      "amount": 273050.0,
+      "recipient_id": "3f53cf18-5f6e-0825-6e40-431b4ea46ac9-C",
+      "name": "PALL AEROPOWER CORPORATION",
+      "code": "807445499",
+      "uei": "LUUBKNAN8TK6",
+      "total_outlays": null
+    },
+    {
+      "amount": 272070.0,
+      "recipient_id": "053bcb1c-7045-1bfe-1f1a-d9e820a50e4b-C",
+      "name": "FREEDOM PRECISION MANUFACTURING LLC",
+      "code": "618947084",
+      "uei": "LG2PK4V5L3K3",
+      "total_outlays": null
+    },
+    {
+      "amount": 271383.8,
+      "recipient_id": "b3c62a9a-6941-38ae-3a5f-efc2ebfd82de-C",
+      "name": "CHAND, L.L.C.",
+      "code": "191578434",
+      "uei": "J8ATNVMEGLK1",
+      "total_outlays": null
+    },
+    {
+      "amount": 271309.44,
+      "recipient_id": "f30d3c93-0938-a46a-b468-05afe188a2c0-C",
+      "name": "SHIELD TECHNOLOGIES CORP",
+      "code": "166889068",
+      "uei": "GJEXETZX4N96",
+      "total_outlays": null
+    },
+    {
+      "amount": 268002.0,
+      "recipient_id": "9ae16eb9-3cb5-b226-ccd3-40388d2a9956-C",
+      "name": "BRADLEY-THOMPSON TOOL COMPANY",
+      "code": "005391065",
+      "uei": "P9NLNTSLG696",
+      "total_outlays": null
+    },
+    {
+      "amount": 261770.0,
+      "recipient_id": "62897dd0-4117-8f06-b637-844abf760870-C",
+      "name": "L.R.G. CORPORATION",
+      "code": "068708676",
+      "uei": "S4G8TYLQNKY3",
+      "total_outlays": null
+    },
+    {
+      "amount": 247683.4,
+      "recipient_id": "d5ab5f51-db3a-a26f-96a1-1b24c3e2802c-C",
+      "name": "ELECTRIC BOAT CORPORATION",
+      "code": "963737366",
+      "uei": "E7BEKJ4V9528",
+      "total_outlays": null
+    },
+    {
+      "amount": 243263.0,
+      "recipient_id": "0ebec944-fe6a-00a0-5964-978a54540e03-C",
+      "name": "GENERAL DYNAMICS ORDNANCE & TACTICAL SYSTEMS, INC.",
+      "code": "006317473",
+      "uei": "D6BENLPTJ8H6",
+      "total_outlays": null
+    },
+    {
+      "amount": 241566.08,
+      "recipient_id": "2fbbf180-a073-a6fc-4eee-620011e4b02c-C",
+      "name": "ALAMO AIRCRAFT, LTD.",
+      "code": "027005180",
+      "uei": "EJRGNJY3K667",
+      "total_outlays": null
+    },
+    {
+      "amount": 239373.6,
+      "recipient_id": "763ab232-a5ff-aa22-fdaf-77b8ad1ce4f2-C",
+      "name": "EILERS MACHINE & WELDING INC",
+      "code": "102309499",
+      "uei": "U7KJCQR4XJ34",
+      "total_outlays": null
+    },
+    {
+      "amount": 237300.0,
+      "recipient_id": "ccda6bf2-a257-e02b-8c65-d82f06233a32-C",
+      "name": "RIPA ENGINEERING CORP",
+      "code": "092694249",
+      "uei": "DC1XEVGGYBH5",
+      "total_outlays": null
+    },
+    {
+      "amount": 236927.5,
+      "recipient_id": "75819ed1-cb5c-12b5-5aa1-b66ac4c9391e-C",
+      "name": "A&B FOUNDRY, LLC",
+      "code": "081557953",
+      "uei": "JSHXHZV18F75",
+      "total_outlays": null
+    },
+    {
+      "amount": 231234.52,
+      "recipient_id": "995da12c-5bbe-6873-b931-ddd479243232-C",
+      "name": "POLYTECH DEFENSE SPARES LLC",
+      "code": "160975009",
+      "uei": "N3WKYW15Z8B5",
+      "total_outlays": null
+    },
+    {
+      "amount": 227822.3,
+      "recipient_id": "14b733bc-4248-f1cb-194b-ff68fdc2aab5-C",
+      "name": "ALEK INDUSTRIES INC",
+      "code": "121295380",
+      "uei": "M3BJFCN2LMC8",
+      "total_outlays": null
+    },
+    {
+      "amount": 227695.01,
+      "recipient_id": "2f18b06e-0bd5-b083-f202-ac6fb1275a31-C",
+      "name": "VERTEX MODERNIZATION AND SUSTAINMENT LLC",
+      "code": "118346039",
+      "uei": "NQCCULJZFY29",
+      "total_outlays": null
+    },
+    {
+      "amount": 221243.94,
+      "recipient_id": "1f489ef0-ebe9-0101-03b4-e4fc693ce7c3-C",
+      "name": "DEFENSE & AEROSPACE MANUFACTURING LLC",
+      "code": "076773239",
+      "uei": "MR4AZGDQTJK1",
+      "total_outlays": null
+    },
+    {
+      "amount": 219580.35,
+      "recipient_id": "deb6240d-d5c9-bfcf-5315-67b0e273ca2e-C",
+      "name": "CNS CO LLC",
+      "code": "117409509",
+      "uei": "R3LDATWH1S23",
+      "total_outlays": null
+    },
+    {
+      "amount": 218836.35,
+      "recipient_id": "9089c1f4-d650-d432-b115-4637b839d4ae-C",
+      "name": "LINMARR ASSOCIATES, INC.",
+      "code": "607330206",
+      "uei": "NMCFPF4DL646",
+      "total_outlays": null
+    },
+    {
+      "amount": 211217.24,
+      "recipient_id": "a8dd7bdd-4eb2-e432-4ae8-006f61566f50-C",
+      "name": "ECI DEFENSE GROUP, INC.",
+      "code": "621219166",
+      "uei": "CW7HJMUQB621",
+      "total_outlays": null
+    },
+    {
+      "amount": 209632.0,
+      "recipient_id": "98e4b8e0-ca40-743c-578d-d067106d4da7-C",
+      "name": "AEROMETALS, INC.",
+      "code": "109234716",
+      "uei": "CHNMDT8TAEF5",
+      "total_outlays": null
+    },
+    {
+      "amount": 207024.3,
+      "recipient_id": "0b8cd635-a0cf-6545-33d2-ac76d758d230-C",
+      "name": "A WILEY & ASSOCIATES INC",
+      "code": "797119166",
+      "uei": "KRATXDTUH2U5",
+      "total_outlays": null
+    },
+    {
+      "amount": 205315.0,
+      "recipient_id": "7f21349d-9202-3bb2-9735-a4dc1c0c5c3c-C",
+      "name": "INNOVATIVE DRONE SOLUTIONS PTY. LTD.",
+      "code": "744105080",
+      "uei": "U3WFBLAPUQ68",
+      "total_outlays": null
+    }
+  ],
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+    "'subawards' will be deprecated in the future. Set \u2018spending_level\u2019 to \u2018subawards\u2019 instead. See documentation for more information. "
+  ]
+}

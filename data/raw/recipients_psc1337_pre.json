@@ -1,0 +1,162 @@
+{
+  "category": "recipient",
+  "spending_level": "transactions",
+  "limit": 100,
+  "page_metadata": {
+    "page": 1,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "amount": 452460951.91,
+      "recipient_id": "34dbeb4e-063b-563c-18a8-c96a21591c3f-C",
+      "name": "AEROJET ROCKETDYNE COLEMAN AEROSPACE INC",
+      "code": "080611558",
+      "uei": "H6GGLSFCL9G5",
+      "total_outlays": null
+    },
+    {
+      "amount": 24524265.39,
+      "recipient_id": "49ba01f3-56b6-92fd-1814-1a521f21fe7e-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "003419090",
+      "uei": "MJENSFHZJP11",
+      "total_outlays": null
+    },
+    {
+      "amount": 21009342.0,
+      "recipient_id": "7075086b-d0b1-a7a5-3638-402a7aba0b1c-C",
+      "name": "NORTHROP GRUMMAN SYSTEMS CORP",
+      "code": "117467920",
+      "uei": "NYAPEDKLW2A5",
+      "total_outlays": null
+    },
+    {
+      "amount": 20394606.89,
+      "recipient_id": "894dbedb-aca8-9b52-0a82-3b0fd8713b6d-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "075457143",
+      "uei": "NGBVY5X32XZ5",
+      "total_outlays": null
+    },
+    {
+      "amount": 2134821.0,
+      "recipient_id": "01c4a3a3-b4c5-ce4e-822b-d17f09985001-C",
+      "name": "RAYTHEON COMPANY",
+      "code": "794598573",
+      "uei": "VTEWM5QSE598",
+      "total_outlays": null
+    },
+    {
+      "amount": 1710000.0,
+      "recipient_id": "3ba0b6b3-daa9-ba0b-ecc3-072714d9424c-C",
+      "name": "BBG INC",
+      "code": "625905062",
+      "uei": "V945QRAZJCK6",
+      "total_outlays": null
+    },
+    {
+      "amount": 1315860.0,
+      "recipient_id": "66fc17c7-78d1-edbc-ab49-1d90a54bc6e5-C",
+      "name": "KAMAN AEROSPACE CORPORATION",
+      "code": "879936862",
+      "uei": "LHB1FZYGD6L1",
+      "total_outlays": null
+    },
+    {
+      "amount": 545235.0,
+      "recipient_id": "91e95d0b-95de-069d-f8eb-76827f2b9b7d-C",
+      "name": "PACIFIC SCIENTIFIC ENERGETIC MATERIALS CO CALIFORNIA LLC",
+      "code": "080242612",
+      "uei": "ZR5PFWUPJMD3",
+      "total_outlays": null
+    },
+    {
+      "amount": 128921.94,
+      "recipient_id": "6e7a895c-aa57-8600-2a8a-4e237f6213f6-C",
+      "name": "LOCKHEED MARTIN CORP",
+      "code": "926784042",
+      "uei": "FYHNA5WC8XD7",
+      "total_outlays": null
+    },
+    {
+      "amount": 119049.56,
+      "recipient_id": "04445689-94c1-a7d7-f34b-5f20f106e013-C",
+      "name": "CHEMRING ENERGETIC DEVICES INC",
+      "code": "005240536",
+      "uei": "C3NRYDF1K755",
+      "total_outlays": null
+    },
+    {
+      "amount": 84950.0,
+      "recipient_id": "80a0baa6-086d-16dd-f4fe-014269f8b093-C",
+      "name": "SOUTH-TEK SYSTEMS, LLC",
+      "code": "159076129",
+      "uei": "CBY3V7VKYVS4",
+      "total_outlays": null
+    },
+    {
+      "amount": 30000.0,
+      "recipient_id": "4156c4b2-edf6-d469-6c1f-81891adeb509-C",
+      "name": "ECAPS AKTIEBOLAG",
+      "code": "632658071",
+      "uei": "NZJWN7GF54S3",
+      "total_outlays": null
+    },
+    {
+      "amount": 22611.0,
+      "recipient_id": "1c900490-88f7-8dd4-6ef3-af0672962d06-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "945757268",
+      "uei": "HLKNNPYN5CQ4",
+      "total_outlays": null
+    },
+    {
+      "amount": 937.48,
+      "recipient_id": "96416c0c-78a0-9154-0364-fe98a2087894-C",
+      "name": "LEONARD-SPLAINE CO INC",
+      "code": "024011132",
+      "uei": "JBWHBMMCZLS3",
+      "total_outlays": null
+    },
+    {
+      "amount": 0.0,
+      "recipient_id": "6e029a26-8899-7f74-915d-f0daaebd4e1c-C",
+      "name": "NETWORKS ELECTRONIC COMPANY, LLC",
+      "code": "361801041",
+      "uei": "JBJ3DFLFQK17",
+      "total_outlays": null
+    },
+    {
+      "amount": 0.0,
+      "recipient_id": "b945fccb-0de6-9e99-b723-7792c792f619-C",
+      "name": "CARTRIDGE ACTUATED DEVICES INC",
+      "code": "002460772",
+      "uei": "G3KMHX33NMQ8",
+      "total_outlays": null
+    },
+    {
+      "amount": -264667.49,
+      "recipient_id": "3a96cd03-25c0-37e6-acee-bda411c8bba9-C",
+      "name": "WATRING TECHNOLOGIES INC",
+      "code": "002744089",
+      "uei": "YYCSSPZA5TS3",
+      "total_outlays": null
+    },
+    {
+      "amount": -2866847.07,
+      "recipient_id": "779b3e3e-364f-7cbc-28a4-a2b4484b86f4-C",
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "code": "794571448",
+      "uei": "XFJMYSYFJEK4",
+      "total_outlays": null
+    }
+  ],
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+    "'subawards' will be deprecated in the future. Set \u2018spending_level\u2019 to \u2018subawards\u2019 instead. See documentation for more information. "
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "category": "psc",
+  "spending_level": "transactions",
+  "limit": 25,
+  "page_metadata": {
+    "page": 1,
+    "next": 2,
+    "previous": null,
+    "hasNext": true,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": null,
+      "code": "1410",
+      "name": "GUIDED MISSILES",
+      "amount": 2315306153.63,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1440",
+      "name": "LAUNCHERS, GUIDED MISSILE",
+      "amount": 1382885613.82,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1425",
+      "name": "GUIDED MISSILE SYSTEMS, COMPLETE",
+      "amount": 453336758.07,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "AC25",
+      "name": "NATIONAL DEFENSE R&D SVCS; ATOMIC ENERGY DEFENSE ACTIVITIES; R&D FACILITIES & MAJ EQUIP",
+      "amount": 37293738.21,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "AC26",
+      "name": "R&D- DEFENSE SYSTEM: MISSILE/SPACE SYSTEMS (MANAGEMENT/SUPPORT)",
+      "amount": 37098089.22,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1420",
+      "name": "GUIDED MISSILE COMPONENTS",
+      "amount": 16435470.59,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "R425",
+      "name": "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL",
+      "amount": 15087457.95,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "2010",
+      "name": "SHIP AND BOAT PROPULSION COMPONENTS",
+      "amount": 15073720.78,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "5342",
+      "name": "HARDWARE, WEAPON SYSTEM",
+      "amount": 14175878.54,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1340",
+      "name": "ROCKETS, ROCKET AMMUNITION AND ROCKET COMPONENTS",
+      "amount": 13145107.52,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "AC24",
+      "name": "NATIONAL DEFENSE R&D SERVICES; ATOMIC ENERGY DEFENSE ACTIVITIES; R&D ADMINISTRATIVE EXPENSES",
+      "amount": 9592209.0,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1430",
+      "name": "GUIDED MISSILE REMOTE CONTROL SYSTEMS",
+      "amount": 8129784.35,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1450",
+      "name": "GUIDED MISSILE HANDLING AND SERVICING EQUIPMENT",
+      "amount": 3329846.0,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "AB41",
+      "name": "R&D- COMMUNITY SERVICE/DEVELOPMENT: URBAN (BASIC RESEARCH)",
+      "amount": 3185517.22,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "AC22",
+      "name": "NATIONAL DEFENSE R&D SERVICES; ATOMIC ENERGY DEFENSE ACTIVITIES; APPLIED RESEARCH",
+      "amount": 2491164.0,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "5865",
+      "name": "ELECTRONIC COUNTERMEASURES, COUNTER-COUNTERMEASURES AND QUICK REACTION CAPABILITY EQUIPMENT",
+      "amount": 1149916.2,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "5995",
+      "name": "CABLE, CORD, AND WIRE ASSEMBLIES: COMMUNICATION EQUIPMENT",
+      "amount": 1004850.57,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "R410",
+      "name": "SUPPORT- PROFESSIONAL: PROGRAM EVALUATION/REVIEW/DEVELOPMENT",
+      "amount": 685650.23,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "2845",
+      "name": "ROCKET ENGINES AND COMPONENTS",
+      "amount": 601878.0,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "AC52",
+      "name": "R&D- DEFENSE SYSTEM: WEAPONS (APPLIED RESEARCH/EXPLORATORY DEVELOPMENT)",
+      "amount": 590671.62,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "6130",
+      "name": "CONVERTERS, ELECTRICAL, NONROTATING",
+      "amount": 472350.7,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1355",
+      "name": "TORPEDOS AND COMPONENTS, INERT",
+      "amount": 469210.0,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "5998",
+      "name": "ELECTRICAL AND ELECTRONIC ASSEMBLIES, BOARDS, CARDS, AND ASSOCIATED HARDWARE",
+      "amount": 347943.15,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1675",
+      "name": "SPACE VEHICLE COMPONENTS",
+      "amount": 319970.0,
+      "total_outlays": null
+    },
+    {
+      "id": null,
+      "code": "1680",
+      "name": "MISCELLANEOUS AIRCRAFT ACCESSORIES AND COMPONENTS",
+      "amount": 317630.15,
+      "total_outlays": null
+    }
+  ],
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. ",
+    "'subawards' will be deprecated in the future. Set \u2018spending_level\u2019 to \u2018subawards\u2019 instead. See documentation for more information. "
+  ]
+}

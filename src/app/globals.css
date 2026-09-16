@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Design tokens. Defined on bare :root so every colour has a light definition,
+   then overridden for dark. The dashboard is data-dense, so the palette stays
+   near-neutral and reserves saturation for the series colours below. */
+:root {
+  --bg: #fbfaf8;
+  --surface: #ffffff;
+  --border: #e5e1da;
+  --text: #1b1a18;
+  --muted: #6b6760;
+  --faint: #918c83;
+
+  /* Series colours. Primary = the DoD propulsion lens (the story), control =
+     NASA (deliberately desaturated so it reads as a reference line), secondary =
+     PSC 1337. Alert is used only for the concentration/HHI callouts. */
+  --primary: #b4531f;
+  --primary-soft: #e8d5c6;
+  --control: #7e8a99;
+  --secondary: #3f7d6e;
+  --alert: #9c2f2f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14130f;
+    --surface: #1c1b17;
+    --border: #322f29;
+    --text: #f2efe9;
+    --muted: #a39d92;
+    --faint: #7c766c;
+
+    --primary: #e8834a;
+    --primary-soft: #4a2f1e;
+    --control: #8b97a6;
+    --secondary: #5fa896;
+    --alert: #d96a6a;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #14130f;
+  --surface: #1c1b17;
+  --border: #322f29;
+  --text: #f2efe9;
+  --muted: #a39d92;
+  --faint: #7c766c;
+
+  --primary: #e8834a;
+  --primary-soft: #4a2f1e;
+  --control: #8b97a6;
+  --secondary: #5fa896;
+  --alert: #d96a6a;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-primary: var(--primary);
+  --color-primary-soft: var(--primary-soft);
+  --color-control: var(--control);
+  --color-secondary: var(--secondary);
+  --color-alert: var(--alert);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular figures everywhere numbers are compared down a column. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
